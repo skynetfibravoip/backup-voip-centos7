@@ -1,2 +1,4 @@
 *.log
 var_log/
+*.log
+var_log/
