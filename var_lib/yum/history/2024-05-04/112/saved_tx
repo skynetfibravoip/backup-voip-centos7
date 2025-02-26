@@ -1,0 +1,21 @@
+611:e36f0a23af9b6f50e8e2cb3f77ea2b49d9f1f929
+0
+1
+installed:613:51f321e540129db9ac0fc508c6b6b18b265dd131
+2
+mbr: wavpack,x86_64,0,4.60.1,9.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: sox,x86_64,0,14.4.1,7.el7@a:dependson
+  depends_on: sox,x86_64,0,14.4.1,7.el7@a
+mbr: sox,x86_64,0,14.4.1,7.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

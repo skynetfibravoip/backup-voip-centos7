@@ -1,0 +1,12 @@
+390:75929e9af0f6221355b8f9f91d12984f88056b3a
+0
+1
+installed:391:72fec7e3b609a446f31b190f558567ca2ab0de78
+1
+mbr: dhcp,x86_64,12,4.2.5,83.el7.centos.1 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

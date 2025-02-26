@@ -1,0 +1,21 @@
+512:12b174149251b67e823b31948394bf51821d3f0f
+0
+1
+installed:514:30bdaed96f219fc10cf97507d2a9671418b7f02b
+2
+mbr: perl-Business-ISBN-Data,noarch,0,20120719.001,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-Business-ISBN,noarch,0,2.06,2.el7@a:dependson
+  depends_on: perl-Business-ISBN,noarch,0,2.06,2.el7@a
+mbr: perl-Business-ISBN,noarch,0,2.06,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

@@ -1,0 +1,2 @@
+# This file was automatically generated on systemd update
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="00:0c:29:eb:8a:20", NAME="eno16780032"

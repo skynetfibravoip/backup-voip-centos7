@@ -1,0 +1,66 @@
+753:dab3f10ae4bf0ed38a46262769113208a04192b0
+0
+1
+installed:760:18529e4b9f9f5596722d5f1612390ef0dc42ae45
+7
+mbr: python-paramiko,noarch,0,2.1.1,9.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-endpointconfig2,noarch,0,4.0.0,3@a:dependson
+  depends_on: issabel-endpointconfig2,noarch,0,4.0.0,3@a
+mbr: py-Asterisk,noarch,0,0.5.18,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-endpointconfig2,noarch,0,4.0.0,3@a:dependson
+  depends_on: issabel-endpointconfig2,noarch,0,4.0.0,3@a
+mbr: issabel-endpointconfig2,noarch,0,4.0.0,3 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: python-daemon,noarch,0,1.6,4.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-endpointconfig2,noarch,0,4.0.0,3@a:dependson
+  depends_on: issabel-endpointconfig2,noarch,0,4.0.0,3@a
+mbr: python-greenlet,x86_64,0,0.4.2,4.el7 70
+  repo: extras
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: python2-eventlet,noarch,0,0.18.4,1.1.el7.centos@a:dependson
+  depends_on: python2-eventlet,noarch,0,0.18.4,1.1.el7.centos@a
+mbr: python-cjson,x86_64,0,1.2.1,1.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-endpointconfig2,noarch,0,4.0.0,3@a:dependson
+  depends_on: issabel-endpointconfig2,noarch,0,4.0.0,3@a
+mbr: python2-eventlet,noarch,0,0.18.4,1.1.el7.centos 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-endpointconfig2,noarch,0,4.0.0,3@a:dependson
+  depends_on: issabel-endpointconfig2,noarch,0,4.0.0,3@a

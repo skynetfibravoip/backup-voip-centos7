@@ -1,0 +1,39 @@
+417:6823f7022bc7b43f15222668b4c655465629d7da
+0
+1
+installed:421:9fe03c7b9fb08394a19465efdfcf5f6d60226e48
+4
+mbr: fontpackages-filesystem,noarch,0,1.44,8.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: fontconfig,x86_64,0,2.13.0,4.3.el7@a:dependson dejavu-fonts-common,noarch,0,2.33,6.el7@a:dependson
+  depends_on: fontconfig,x86_64,0,2.13.0,4.3.el7@a dejavu-fonts-common,noarch,0,2.33,6.el7@a
+mbr: dejavu-fonts-common,noarch,0,2.33,6.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: dejavu-sans-fonts,noarch,0,2.33,6.el7@a:dependson
+  depends_on: dejavu-sans-fonts,noarch,0,2.33,6.el7@a
+mbr: fontconfig,x86_64,0,2.13.0,4.3.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: dejavu-sans-fonts,noarch,0,2.33,6.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: fontconfig,x86_64,0,2.13.0,4.3.el7@a:dependson
+  depends_on: fontconfig,x86_64,0,2.13.0,4.3.el7@a

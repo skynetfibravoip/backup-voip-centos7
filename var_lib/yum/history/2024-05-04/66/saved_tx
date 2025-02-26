@@ -1,0 +1,12 @@
+520:814342bf11ff2de48f4e1cca1081d1f98fbf2cf0
+0
+1
+installed:521:7f844a39b5ea24c38e1971b576be96464b3bc630
+1
+mbr: perl-DB_File,x86_64,0,1.830,6.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

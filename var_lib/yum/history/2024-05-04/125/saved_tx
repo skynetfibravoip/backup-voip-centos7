@@ -1,0 +1,12 @@
+626:9fbef70cf21321fc4de1a53100fefce3198a1242
+0
+1
+installed:627:f120dec7618c5f9acbc822d396c9b46ef1541ab8
+1
+mbr: xinetd,x86_64,2,2.3.15,14.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

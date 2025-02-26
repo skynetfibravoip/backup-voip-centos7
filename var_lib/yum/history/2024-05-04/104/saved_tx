@@ -1,0 +1,30 @@
+601:4fd881fca33ee93c94cf07fc11709ac047e379dd
+0
+1
+installed:604:29d366544a25cb7ec0116c893e90ab2992a0bb5f
+3
+mbr: python-six,noarch,0,1.9.0,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: python2-six,noarch,0,1.9.0,0.el7@a:dependson
+  depends_on: python2-six,noarch,0,1.9.0,0.el7@a
+mbr: python2-ecdsa,noarch,0,0.13.3,1.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: python2-six,noarch,0,1.9.0,0.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: python2-ecdsa,noarch,0,0.13.3,1.el7@a:dependson
+  depends_on: python2-ecdsa,noarch,0,0.13.3,1.el7@a

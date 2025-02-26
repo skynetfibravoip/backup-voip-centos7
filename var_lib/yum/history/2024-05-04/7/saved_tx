@@ -1,0 +1,12 @@
+349:46e38a7ba4d3b701e42de6e7dbf9f88913d11f1f
+0
+1
+installed:350:e3fd1aec696013f9cf01daf1a6d8cc693233435b
+1
+mbr: autogen-libopts,x86_64,0,5.18,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

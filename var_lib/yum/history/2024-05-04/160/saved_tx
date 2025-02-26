@@ -1,0 +1,39 @@
+801:49876117ae2a31c16663071d27130f92e3dafff3
+0
+1
+installed:805:690c7acf0f2a66336c38e101ae5bae12e5531ee9
+4
+mbr: m4,x86_64,0,1.4.16,10.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: autoconf,noarch,0,2.69,11.el7@a:dependson
+  depends_on: autoconf,noarch,0,2.69,11.el7@a
+mbr: autoconf,noarch,0,2.69,11.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: automake,noarch,0,1.13.4,3.el7@a:dependson
+  depends_on: automake,noarch,0,1.13.4,3.el7@a
+mbr: perl-Thread-Queue,noarch,0,3.02,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: automake,noarch,0,1.13.4,3.el7@a:dependson
+  depends_on: automake,noarch,0,1.13.4,3.el7@a
+mbr: automake,noarch,0,1.13.4,3.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

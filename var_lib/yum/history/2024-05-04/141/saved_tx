@@ -1,0 +1,12 @@
+750:2054e006ba8bf4f020e91e1cda4174a621c9a125
+0
+1
+installed:751:aa474e02c3ca39ec691edff33aecf61321117d89
+1
+mbr: issabel-asterisk-sounds,noarch,0,1.2.3,2 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

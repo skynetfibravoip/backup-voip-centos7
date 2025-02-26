@@ -1,0 +1,39 @@
+#!/bin/bash
+
+function datediff() {
+    d1=$(date -d "$1" +%s)
+    d2=$(date -d "$2" +%s)
+    echo $(( (d1 - d2) / 86400 ))
+    return 0
+}
+
+function check_at {
+    (
+    if [ ! -f /usr/bin/at ]
+    then
+        yum -y install at
+        systemctl enable atd
+        systemctl start atd
+    fi
+    ) &> /dev/null
+}
+
+function acquire {
+    check_at
+    echo /usr/local/bin/issabel_register_license -acquire | at now + ${RANDOM:2} minutes
+} 
+
+for i in $(/usr/local/bin/issabel_register_license -check | grep expired | awk '{print $3}')
+do
+    EXP_DATE=$i
+    TODAY=$(date +%Y-%m-%d)
+    DIFF=$(datediff $TODAY $EXP_DATE)
+    if [ "$DIFF" -eq "$DIFF" ] 
+    then
+        if [ "$DIFF" -ge "0" ] && [ "$DIFF" -lt "10" ] 
+        then
+            acquire
+            break
+        fi
+    fi
+done

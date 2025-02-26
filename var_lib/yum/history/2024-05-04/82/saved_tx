@@ -1,0 +1,21 @@
+562:649aca7343d5631541656c9569535a4dddba2ed8
+0
+1
+installed:564:926a034e8fabdf3a018eb616061f09f23ef8640c
+2
+mbr: perl-Parse-RecDescent,noarch,0,1.967009,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-Mail-IMAPClient,noarch,0,3.37,1.el7@a:dependson
+  depends_on: perl-Mail-IMAPClient,noarch,0,3.37,1.el7@a
+mbr: perl-Mail-IMAPClient,noarch,0,3.37,1.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

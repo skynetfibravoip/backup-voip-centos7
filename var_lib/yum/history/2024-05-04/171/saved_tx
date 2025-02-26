@@ -1,0 +1,39 @@
+879:331bfa2fe074ed03e39b9b7d2b37ceccde73b43c
+0
+1
+installed:883:4090a4fb32bc29a87f1a6cad374e06ddda869a26
+4
+mbr: ldns,x86_64,0,1.6.16,10.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-packetbl,x86_64,0,1.0,0@a:dependson
+  depends_on: issabel-packetbl,x86_64,0,1.0,0@a
+mbr: issabel-packetbl,x86_64,0,1.0,0 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: dotconf,x86_64,0,1.3,8.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-packetbl,x86_64,0,1.0,0@a:dependson
+  depends_on: issabel-packetbl,x86_64,0,1.0,0@a
+mbr: libnetfilter_queue,x86_64,0,1.0.2,2.el7_2 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-packetbl,x86_64,0,1.0,0@a:dependson
+  depends_on: issabel-packetbl,x86_64,0,1.0,0@a

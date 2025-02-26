@@ -1,0 +1,12 @@
+624:10d4973e3ec5f375d0d2760b3bea2df58a501389
+0
+1
+installed:625:6e06fda234b0c6a60f2ddf0f2aefd6fc7bb86ec4
+1
+mbr: vim-enhanced,x86_64,2,7.4.629,8.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

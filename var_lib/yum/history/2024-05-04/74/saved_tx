@@ -1,0 +1,57 @@
+539:d0d1a23529a89254edc03ce035cc1137a9d11e64
+0
+1
+installed:545:45ffd029a44d08355fdc4c46727a24ea7e266819
+6
+mbr: perl-HTML-Parser,x86_64,0,3.71,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: perl-LWP-MediaTypes,noarch,0,6.02,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-HTTP-Message,noarch,0,6.06,6.el7@a:dependson
+  depends_on: perl-HTTP-Message,noarch,0,6.06,6.el7@a
+mbr: perl-IO-HTML,noarch,0,1.00,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-HTTP-Message,noarch,0,6.06,6.el7@a:dependson
+  depends_on: perl-HTTP-Message,noarch,0,6.06,6.el7@a
+mbr: perl-HTTP-Message,noarch,0,6.06,6.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-HTML-Parser,x86_64,0,3.71,4.el7@a:dependson
+  depends_on: perl-HTML-Parser,x86_64,0,3.71,4.el7@a
+mbr: perl-HTML-Tagset,noarch,0,3.20,15.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-HTML-Parser,x86_64,0,3.71,4.el7@a:dependson
+  depends_on: perl-HTML-Parser,x86_64,0,3.71,4.el7@a
+mbr: perl-URI,noarch,0,1.60,9.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-HTML-Parser,x86_64,0,3.71,4.el7@a:dependson perl-HTTP-Message,noarch,0,6.06,6.el7@a:dependson
+  depends_on: perl-HTML-Parser,x86_64,0,3.71,4.el7@a perl-HTTP-Message,noarch,0,6.06,6.el7@a

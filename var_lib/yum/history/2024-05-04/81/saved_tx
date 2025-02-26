@@ -1,0 +1,39 @@
+558:0b16d5c338e19ddd92843f4c03102e3017374d3a
+0
+1
+installed:562:649aca7343d5631541656c9569535a4dddba2ed8
+4
+mbr: perl-Net-DNS,x86_64,0,0.72,6.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-Mail-DKIM,noarch,0,0.39,8.el7@a:dependson
+  depends_on: perl-Mail-DKIM,noarch,0,0.39,8.el7@a
+mbr: perl-Mail-DKIM,noarch,0,0.39,8.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: perl-MailTools,noarch,0,2.12,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-Mail-DKIM,noarch,0,0.39,8.el7@a:dependson
+  depends_on: perl-Mail-DKIM,noarch,0,0.39,8.el7@a
+mbr: perl-Net-SMTP-SSL,noarch,0,1.01,13.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-MailTools,noarch,0,2.12,2.el7@a:dependson
+  depends_on: perl-MailTools,noarch,0,2.12,2.el7@a

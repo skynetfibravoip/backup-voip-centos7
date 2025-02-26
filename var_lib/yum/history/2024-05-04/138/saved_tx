@@ -1,0 +1,12 @@
+744:1ded84f610738e7d43e39a54184476ab6810004c
+0
+1
+installed:745:343b9c2017de547a677a6c5a69d751831e0bf3af
+1
+mbr: issabel-framework-themes-extra,noarch,0,4.0.0,10 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

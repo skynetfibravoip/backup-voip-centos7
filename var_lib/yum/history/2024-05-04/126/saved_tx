@@ -1,0 +1,12 @@
+627:f120dec7618c5f9acbc822d396c9b46ef1541ab8
+0
+1
+installed:628:b5ca824ec7102b8aac22272f66ed202c4563314f
+1
+mbr: pv,x86_64,0,1.4.6,1.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

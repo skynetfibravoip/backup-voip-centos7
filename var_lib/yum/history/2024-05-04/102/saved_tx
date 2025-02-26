@@ -1,0 +1,21 @@
+596:b95a5f8facf43d84e2b0354238a9967d85a340df
+0
+1
+installed:598:68fc4058be19ea90ec188476ce8961c38ba9d281
+2
+mbr: python-ipaddress,noarch,0,1.0.16,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: python-backports-ssl_match_hostname,noarch,0,3.5.0.1,1.el7@a:dependson
+  depends_on: python-backports-ssl_match_hostname,noarch,0,3.5.0.1,1.el7@a
+mbr: python-backports-ssl_match_hostname,noarch,0,3.5.0.1,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

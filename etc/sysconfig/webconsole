@@ -1,0 +1,3 @@
+COMMAND="ssh root@localhost"
+OPTIONS=""
+TERM=xterm-256color

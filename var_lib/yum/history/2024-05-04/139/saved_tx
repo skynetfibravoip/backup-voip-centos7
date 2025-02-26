@@ -1,0 +1,12 @@
+745:343b9c2017de547a677a6c5a69d751831e0bf3af
+0
+1
+installed:746:68d645eee9d79253f363efd36e83b003f2752f55
+1
+mbr: issabel-addons,noarch,0,4.0.0,5 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

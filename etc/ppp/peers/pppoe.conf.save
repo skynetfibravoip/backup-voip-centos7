@@ -1,0 +1,18 @@
+# Nome do provedor de serviço
+provider <nome_do_provedor>
+
+# Nome de usuário para PPPoE
+user <seu_nome_de_usuário>
+
+# Senha para PPPoE
+password <sua_senha>
+
+# Mantenha a conexão ativa
+persist
+
+# Ignora o endereço IP atribuído pelo provedor
+noipdefault
+
+# Use autenticação PAP ou CHAP (dependendo do provedor)
+usepeerdns
+

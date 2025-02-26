@@ -1,0 +1,12 @@
+508:26a00e7950127d435a5fca83b9ca0be7f6781220
+0
+1
+installed:509:5aada72dd13b518c0e5e1169c5704cfdec35efa5
+1
+mbr: opus,x86_64,0,1.0.2,6.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

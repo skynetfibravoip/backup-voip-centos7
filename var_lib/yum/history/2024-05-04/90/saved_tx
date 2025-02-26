@@ -1,0 +1,21 @@
+577:67a2de7ad3ffba7882c0d7ccd4cb5ca093137213
+0
+1
+installed:579:4753516936deed75ab3193dc5fc2e324401848a2
+2
+mbr: libmcrypt,x86_64,0,2.5.8,13.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php-mcrypt,x86_64,0,5.4.16,9.el7@a:dependson
+  depends_on: php-mcrypt,x86_64,0,5.4.16,9.el7@a
+mbr: php-mcrypt,x86_64,0,5.4.16,9.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

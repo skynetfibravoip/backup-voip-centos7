@@ -1,0 +1,12 @@
+517:ace62161d9ddcb39702df282ee2665de21793140
+0
+1
+installed:518:5199f38ad2e9e9c61538447096038cbdb5d142fe
+1
+mbr: perl-Crypt-OpenSSL-Random,x86_64,0,0.04,21.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

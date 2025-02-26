@@ -1,0 +1,21 @@
+352:4041e108507e259836d869808b5b99dbf8872220
+0
+1
+installed:354:9546523729d994211928b00120767b6384607137
+2
+mbr: libjpeg-turbo,x86_64,0,1.2.90,8.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: compat-libtiff3,x86_64,0,3.9.4,12.el7@a:dependson
+  depends_on: compat-libtiff3,x86_64,0,3.9.4,12.el7@a
+mbr: compat-libtiff3,x86_64,0,3.9.4,12.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

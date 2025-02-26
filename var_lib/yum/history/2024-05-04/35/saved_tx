@@ -1,0 +1,12 @@
+473:3876c6c65487cb8c9f24d29b2f61f89762f9630a
+0
+1
+installed:474:e8ecbcbc4c05e3f9c9883842b2ea20a5a656bb14
+1
+mbr: libtiff-tools,x86_64,0,4.0.3,35.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

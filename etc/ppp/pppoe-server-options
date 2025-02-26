@@ -1,0 +1,6 @@
+# Defina o nome de usuário PPPoE
+user "issabel"
+
+# Defina a senha PPPoE
+password "alk232307"
+

@@ -1,0 +1,12 @@
+798:57fc45b74f4e1c10055c80cc50aa8c8a124c8556
+0
+1
+installed:799:230aba31a72633fdc8c12380ee78cec8600f0a65
+1
+mbr: rhino,x86_64,2,0.99.7,0 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

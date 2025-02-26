@@ -1,0 +1,12 @@
+519:0388fd5fff72993d519eff5cbe7d90d5a660ca10
+0
+1
+installed:520:814342bf11ff2de48f4e1cca1081d1f98fbf2cf0
+1
+mbr: perl-Date-Manip,noarch,0,6.41,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

@@ -1,0 +1,12 @@
+809:0736599b3db84802aedd3da248c72d870f5b17f3
+0
+1
+installed:810:75e035be3082e38ca2e1d564f79152cd3dbd52c0
+1
+mbr: webconsole,x86_64,0,1,0.4 70
+  repo: commercial-addons
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

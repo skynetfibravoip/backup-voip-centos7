@@ -1,0 +1,4 @@
+AST_USER=asterisk
+AST_GROUP=asterisk
+AST_GROUP=asterisk
+COREDUMP=yes

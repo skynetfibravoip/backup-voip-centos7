@@ -1,0 +1,12 @@
+483:6dc38188d46cbef2dcb10aaa47063795dee4ede9
+0
+1
+installed:484:f211aab75511d1f86187ca7f4bd4fb4fa286b0e8
+1
+mbr: mailx,x86_64,0,12.5,19.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

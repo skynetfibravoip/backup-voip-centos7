@@ -1,0 +1,48 @@
+768:79974f3931fdf9741d566f86fe7e93dff06ff48c
+0
+1
+installed:773:3830a12da59a18072d2b511a0baedabad4412ade
+5
+mbr: issabel-security,noarch,0,4.0.0,11 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: fail2ban-server,noarch,0,0.11.2,3.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-security,noarch,0,4.0.0,11@a:dependson fail2ban-sendmail,noarch,0,0.11.2,3.el7@a:dependson
+  depends_on: issabel-security,noarch,0,4.0.0,11@a fail2ban-sendmail,noarch,0,0.11.2,3.el7@a
+mbr: systemd-python,x86_64,0,219,78.el7_9.9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: fail2ban-server,noarch,0,0.11.2,3.el7@a:dependson
+  depends_on: fail2ban-server,noarch,0,0.11.2,3.el7@a
+mbr: ipset-service,noarch,0,7.1,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-security,noarch,0,4.0.0,11@a:dependson
+  depends_on: issabel-security,noarch,0,4.0.0,11@a
+mbr: fail2ban-sendmail,noarch,0,0.11.2,3.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-security,noarch,0,4.0.0,11@a:dependson
+  depends_on: issabel-security,noarch,0,4.0.0,11@a

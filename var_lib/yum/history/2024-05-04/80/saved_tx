@@ -1,0 +1,30 @@
+555:0b4df49acbb41527d24b8b0f20c327d8d2b3f87f
+0
+1
+installed:558:0b16d5c338e19ddd92843f4c03102e3017374d3a
+3
+mbr: perl-WWW-RobotRules,noarch,0,6.02,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-libwww-perl,noarch,0,6.05,2.el7@a:dependson
+  depends_on: perl-libwww-perl,noarch,0,6.05,2.el7@a
+mbr: perl-libwww-perl,noarch,0,6.05,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: perl-Net-HTTP,noarch,0,6.06,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-libwww-perl,noarch,0,6.05,2.el7@a:dependson
+  depends_on: perl-libwww-perl,noarch,0,6.05,2.el7@a

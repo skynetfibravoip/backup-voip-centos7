@@ -1,0 +1,12 @@
+613:51f321e540129db9ac0fc508c6b6b18b265dd131
+0
+1
+installed:614:0561efc92cb4d977d3e1b1e88b0d889a95bb6b04
+1
+mbr: spamassassin,x86_64,0,3.4.0,6.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

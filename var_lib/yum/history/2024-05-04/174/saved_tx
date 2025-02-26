@@ -1,0 +1,23 @@
+889:6c0dbb92897cad0fcc691db6e902a6793a04a388
+0
+1
+installed:889:a0c0c872ec144b005fa52a177c25dededf45a4ba
+2
+mbr: epel-release,noarch,0,7,14 70
+  repo: epel
+  ts_state: u
+  output_state: 10
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: epel-release,noarch,0,7,11@i:updates
+  updates: epel-release,noarch,0,7,11@i
+mbr: epel-release,noarch,0,7,11 20
+  repo: installed
+  ts_state: ud
+  output_state: 90
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: epel-release,noarch,0,7,14@a:updatedby
+  updated_by: epel-release,noarch,0,7,14@a

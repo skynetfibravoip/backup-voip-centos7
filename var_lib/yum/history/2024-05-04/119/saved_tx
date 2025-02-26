@@ -1,0 +1,12 @@
+619:9c730086731477e3c3345e6d97f080427a647b6c
+0
+1
+installed:620:f44758be73a721c366100c90cf29ff46a360bdec
+1
+mbr: unixODBC,x86_64,0,2.3.1,14.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

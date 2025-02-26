@@ -1,0 +1,12 @@
+502:c354c3423b7ab118ec0e6570d9361508dfe81c15
+0
+1
+installed:503:1e08b19ebda29b27568828f0b003179b5010e9b9
+1
+mbr: MySQL-python,x86_64,0,1.2.5,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

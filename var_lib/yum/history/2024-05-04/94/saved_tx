@@ -1,0 +1,39 @@
+585:60bbe76436e11d7d8a952cc9801671310c7d8519
+0
+1
+installed:589:b689bb3ae4f74ab259b9533a69d539b47c0dab54
+4
+mbr: php-tcpdf,noarch,0,6.2.26,1.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: php-tidy,x86_64,0,5.4.16,9.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php-tcpdf,noarch,0,6.2.26,1.el7@a:dependson
+  depends_on: php-tcpdf,noarch,0,6.2.26,1.el7@a
+mbr: compat-libtidy,x86_64,0,0.99.0,37.20091203.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php-tidy,x86_64,0,5.4.16,9.el7@a:dependson
+  depends_on: php-tidy,x86_64,0,5.4.16,9.el7@a
+mbr: php-fedora-autoloader,noarch,0,1.0.1,2.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php-tcpdf,noarch,0,6.2.26,1.el7@a:dependson
+  depends_on: php-tcpdf,noarch,0,6.2.26,1.el7@a

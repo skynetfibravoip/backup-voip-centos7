@@ -1,0 +1,39 @@
+551:6e25827042a6941e88808a27c3b4d577bdfbc785
+0
+1
+installed:555:0b4df49acbb41527d24b8b0f20c327d8d2b3f87f
+4
+mbr: perl-Net-SSLeay,x86_64,0,1.55,6.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-IO-Socket-SSL,noarch,0,1.94,7.el7@a:dependson
+  depends_on: perl-IO-Socket-SSL,noarch,0,1.94,7.el7@a
+mbr: perl-IO-Socket-SSL,noarch,0,1.94,7.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: perl-Mozilla-CA,noarch,0,20130114,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-IO-Socket-SSL,noarch,0,1.94,7.el7@a:dependson
+  depends_on: perl-IO-Socket-SSL,noarch,0,1.94,7.el7@a
+mbr: perl-Net-LibIDN,x86_64,0,0.12,15.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-IO-Socket-SSL,noarch,0,1.94,7.el7@a:dependson
+  depends_on: perl-IO-Socket-SSL,noarch,0,1.94,7.el7@a

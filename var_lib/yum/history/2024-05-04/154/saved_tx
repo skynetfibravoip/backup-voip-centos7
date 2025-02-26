@@ -1,0 +1,12 @@
+794:aa588555109a04b10cb85e28dee2c3e725c94966
+0
+1
+installed:795:92ec69e0df902fcdab99b89e79054eb324922745
+1
+mbr: libgsmat,x86_64,0,2.0.8,0.el7.centos 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

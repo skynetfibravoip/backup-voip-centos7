@@ -1,0 +1,12 @@
+478:187321c4c544660ac37c4817f0508f18d3dc0917
+0
+1
+installed:479:bd4eb6196f8c58ec40fd1c346a24aea386bc4af5
+1
+mbr: libxslt,x86_64,0,1.1.28,6.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

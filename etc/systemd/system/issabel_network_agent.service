@@ -1,0 +1,15 @@
+[Unit]
+Description=Issabel Monitor Agent
+After=network.target
+
+[Service]
+EnvironmentFile=-/etc/sysconfig/issabel_network_agent
+ExecStart=/usr/local/bin/issabel_network_agent $OPTIONS
+Restart=on-failure
+RestartSec=5
+Type=simple
+PIDFile=/var/run/issabel_network_agent.pid
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,48 @@
+412:3256fa7275e65bca9a1466da735fc24466684a91
+0
+1
+installed:417:6823f7022bc7b43f15222668b4c655465629d7da
+5
+mbr: fprintd-pam,x86_64,0,0.8.1,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: libusbx,x86_64,0,1.0.21,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libfprint,x86_64,0,0.8.2,1.el7@a:dependson
+  depends_on: libfprint,x86_64,0,0.8.2,1.el7@a
+mbr: fprintd,x86_64,0,0.8.1,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: fprintd-pam,x86_64,0,0.8.1,2.el7@a:dependson
+  depends_on: fprintd-pam,x86_64,0,0.8.1,2.el7@a
+mbr: libfprint,x86_64,0,0.8.2,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: fprintd,x86_64,0,0.8.1,2.el7@a:dependson
+  depends_on: fprintd,x86_64,0,0.8.1,2.el7@a
+mbr: pixman,x86_64,0,0.34.0,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libfprint,x86_64,0,0.8.2,1.el7@a:dependson
+  depends_on: libfprint,x86_64,0,0.8.2,1.el7@a

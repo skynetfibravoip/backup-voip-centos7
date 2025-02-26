@@ -1,0 +1,21 @@
+873:a26301476f0da4abb6f6dff246ad308810fc8744
+0
+1
+installed:875:38770e3c4f8369557787f9b8260ea03fa1161a6d
+2
+mbr: miniupnpc,x86_64,0,2.0,3.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-upnpc,noarch,0,1.0.0,2@a:dependson
+  depends_on: issabel-upnpc,noarch,0,1.0.0,2@a
+mbr: issabel-upnpc,noarch,0,1.0.0,2 70
+  repo: commercial-addons
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

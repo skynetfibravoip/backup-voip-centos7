@@ -1,0 +1,12 @@
+875:38770e3c4f8369557787f9b8260ea03fa1161a6d
+0
+1
+installed:876:5c49eeebad781fd643d7937b29d1b8a65205cb01
+1
+mbr: issabel-two_factor_auth,noarch,0,1.0.0,2 70
+  repo: commercial-addons
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

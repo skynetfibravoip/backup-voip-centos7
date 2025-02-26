@@ -1,0 +1,12 @@
+610:f357fc56405216c39c6d084de8ccde88dc5bb590
+0
+1
+installed:611:e36f0a23af9b6f50e8e2cb3f77ea2b49d9f1f929
+1
+mbr: shim-x64,x86_64,0,15,8.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

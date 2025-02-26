@@ -1,0 +1,12 @@
+592:b260adde1494aa91348cb18705bb54bd097a3e8d
+0
+1
+installed:593:e644df2170ce43db2f73c6fa5fe8e8e0eb8970d6
+1
+mbr: procmail,x86_64,0,3.22,36.el7_4.1 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

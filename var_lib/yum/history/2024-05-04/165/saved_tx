@@ -1,0 +1,21 @@
+810:75e035be3082e38ca2e1d564f79152cd3dbd52c0
+0
+1
+installed:812:651caf7f5519b5fff389453cb45c7ebeca4db483
+2
+mbr: issabel-wizard,noarch,0,1.0.0,1 70
+  repo: commercial-addons
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: php-ioncubeloader,x86_64,0,2,0.0.0 70
+  repo: issabel-base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-wizard,noarch,0,1.0.0,1@a:dependson
+  depends_on: issabel-wizard,noarch,0,1.0.0,1@a

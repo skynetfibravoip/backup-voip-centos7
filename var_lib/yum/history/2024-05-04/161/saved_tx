@@ -1,0 +1,12 @@
+805:690c7acf0f2a66336c38e101ae5bae12e5531ee9
+0
+1
+installed:806:e6b669df9fc63115408441ed5f783558810b2ed8
+1
+mbr: zip,x86_64,0,3.0,11.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

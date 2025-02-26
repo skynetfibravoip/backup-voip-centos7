@@ -1,0 +1,21 @@
+504:db5638bb0af21b3ff542397e03e462c2a818aa69
+0
+1
+installed:506:f500b91580f3015e7e8667a97d411db69bffb85b
+2
+mbr: nmap-ncat,x86_64,2,6.40,19.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: nmap,x86_64,2,6.40,19.el7@a:dependson
+  depends_on: nmap,x86_64,2,6.40,19.el7@a
+mbr: nmap,x86_64,2,6.40,19.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

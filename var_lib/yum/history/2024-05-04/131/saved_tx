@@ -1,0 +1,12 @@
+726:634bc3f5b9b8c0fedd7d5a13eae032865a4404c7
+0
+1
+installed:727:18a93e943c2fb5cb0b5395aa0dcb654a5746ba88
+1
+mbr: asterisk-codec-g729,x86_64,0,1.0,0 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

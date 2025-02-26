@@ -1,0 +1,48 @@
+883:4090a4fb32bc29a87f1a6cad374e06ddda869a26
+0
+1
+installed:888:ef61c4c68c99576738a87b4461172003f31b2779
+5
+mbr: rsync,x86_64,0,3.1.2,12.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: git,x86_64,0,1.8.3.1,25.el7_9@a:dependson
+  depends_on: git,x86_64,0,1.8.3.1,25.el7_9@a
+mbr: perl-TermReadKey,x86_64,0,2.30,20.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: git,x86_64,0,1.8.3.1,25.el7_9@a:dependson
+  depends_on: git,x86_64,0,1.8.3.1,25.el7_9@a
+mbr: git,x86_64,0,1.8.3.1,25.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: perl-Git,noarch,0,1.8.3.1,25.el7_9@a:dependson
+  depends_on: perl-Git,noarch,0,1.8.3.1,25.el7_9@a
+mbr: perl-Git,noarch,0,1.8.3.1,25.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: git,x86_64,0,1.8.3.1,25.el7_9@a:dependson
+  depends_on: git,x86_64,0,1.8.3.1,25.el7_9@a
+mbr: nano,x86_64,0,2.3.1,10.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

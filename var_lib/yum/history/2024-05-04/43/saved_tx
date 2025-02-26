@@ -1,0 +1,21 @@
+481:3425784ac8dd7e963a67e18b0841606f1c631a8d
+0
+1
+installed:483:6dc38188d46cbef2dcb10aaa47063795dee4ede9
+2
+mbr: mailman,x86_64,3,2.1.15,30.el7_9.2 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: python-dns,noarch,0,1.12.0,4.20150617git465785f.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mailman,x86_64,3,2.1.15,30.el7_9.2@a:dependson
+  depends_on: mailman,x86_64,3,2.1.15,30.el7_9.2@a

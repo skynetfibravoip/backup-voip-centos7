@@ -1,0 +1,21 @@
+799:230aba31a72633fdc8c12380ee78cec8600f0a65
+0
+1
+installed:801:49876117ae2a31c16663071d27130f92e3dafff3
+2
+mbr: gcc-c++,x86_64,0,4.8.5,44.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: libstdc++-devel,x86_64,0,4.8.5,44.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: gcc-c++,x86_64,0,4.8.5,44.el7@a:dependson
+  depends_on: gcc-c++,x86_64,0,4.8.5,44.el7@a

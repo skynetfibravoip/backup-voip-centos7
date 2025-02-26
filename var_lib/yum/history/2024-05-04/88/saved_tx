@@ -1,0 +1,21 @@
+574:e51f41803ca13a4e39cfba4cc9f9e1d8f19b99ff
+0
+1
+installed:576:288aa0f2e17e361803721aaccf8966bdc629e0ad
+2
+mbr: php-imap,x86_64,0,5.4.16,9.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: libc-client,x86_64,0,2007f,16.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php-imap,x86_64,0,5.4.16,9.el7@a:dependson
+  depends_on: php-imap,x86_64,0,5.4.16,9.el7@a

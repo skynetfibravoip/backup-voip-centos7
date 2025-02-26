@@ -1,0 +1,12 @@
+618:fb0314fe30caa7f15ca16f8f064eb2a6dc46755c
+0
+1
+installed:619:9c730086731477e3c3345e6d97f080427a647b6c
+1
+mbr: tftp-server,x86_64,0,5.2,22.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

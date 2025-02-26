@@ -1,0 +1,12 @@
+797:521b012fbb09e2e6fcae42b386d98371108b899e
+0
+1
+installed:798:57fc45b74f4e1c10055c80cc50aa8c8a124c8556
+1
+mbr: php-magpierss,noarch,0,0.72,3.fc17 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

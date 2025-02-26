@@ -1,0 +1,12 @@
+347:0ac6fe032e721a722a7d5ea2683df3f6f36238fc
+0
+1
+installed:348:8bbd00ea8a46b781b3162d19fd5673771ae55a09
+1
+mbr: apr,x86_64,0,1.4.8,7.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

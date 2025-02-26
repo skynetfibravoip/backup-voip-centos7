@@ -1,0 +1,21 @@
+506:f500b91580f3015e7e8667a97d411db69bffb85b
+0
+1
+installed:508:26a00e7950127d435a5fca83b9ca0be7f6781220
+2
+mbr: ntpdate,x86_64,0,4.2.6p5,29.el7.centos.2 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: ntp,x86_64,0,4.2.6p5,29.el7.centos.2@a:dependson
+  depends_on: ntp,x86_64,0,4.2.6p5,29.el7.centos.2@a
+mbr: ntp,x86_64,0,4.2.6p5,29.el7.centos.2 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

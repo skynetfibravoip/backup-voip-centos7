@@ -1,0 +1,30 @@
+463:c26d9f2e8d049a9451c88972ef07dc2de2bfbdc6
+0
+1
+installed:466:f8652c2231505ec253879d19167c6066ce28f3bc
+3
+mbr: httpd,x86_64,0,2.4.6,99.el7.centos.1 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: mailcap,noarch,0,2.1.41,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.4.6,99.el7.centos.1@a:dependson
+  depends_on: httpd,x86_64,0,2.4.6,99.el7.centos.1@a
+mbr: httpd-tools,x86_64,0,2.4.6,99.el7.centos.1 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.4.6,99.el7.centos.1@a:dependson
+  depends_on: httpd,x86_64,0,2.4.6,99.el7.centos.1@a

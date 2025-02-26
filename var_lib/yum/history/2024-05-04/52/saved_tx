@@ -1,0 +1,21 @@
+499:3b0e4ea54b7eb43e4de17ec3be9fd931d7b00a03
+0
+1
+installed:501:4e85e1fc6ae2b505d3de30b7bd060d0c3a405cd5
+2
+mbr: mokutil,x86_64,0,15,8.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: efivar-libs,x86_64,0,36,12.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mokutil,x86_64,0,15,8.el7@a:dependson
+  depends_on: mokutil,x86_64,0,15,8.el7@a

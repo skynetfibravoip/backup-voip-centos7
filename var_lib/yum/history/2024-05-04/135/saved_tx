@@ -1,0 +1,12 @@
+730:ad7dce4d4bc0c4f5dfc8e070d3a337b1d41c1961
+0
+1
+installed:731:7e7fb3972b4bd01a955a31437e1f45b9d396b422
+1
+mbr: asterisk-pt_BR-sounds,noarch,0,1.0,0 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

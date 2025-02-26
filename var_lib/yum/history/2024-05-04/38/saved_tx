@@ -1,0 +1,12 @@
+476:32e7517142a1a64ab8e691bce28c4fa5eaf86319
+0
+1
+installed:477:07ca6cf76d160ae29fcbfe29fb60a071ac7b505b
+1
+mbr: libXfont,x86_64,0,1.5.4,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

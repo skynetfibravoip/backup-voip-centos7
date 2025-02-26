@@ -1,0 +1,12 @@
+594:a9631eaac3502590f3f26ae5c1cf0a1f8b17e66d
+0
+1
+installed:595:152fb8a14039168d86df36648c3ca2954e0d37a0
+1
+mbr: pyOpenSSL,x86_64,0,0.13.1,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

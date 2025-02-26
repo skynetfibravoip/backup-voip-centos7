@@ -1,0 +1,12 @@
+471:8656f7fe6ed9fad3f441e827550c8d7197a9f196
+0
+1
+installed:472:942029261899aaa275b9cc1790bb6a7f4707333f
+1
+mbr: libreport-filesystem,x86_64,0,2.1.11,53.el7.centos 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

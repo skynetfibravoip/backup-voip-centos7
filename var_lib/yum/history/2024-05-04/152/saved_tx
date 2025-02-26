@@ -1,0 +1,30 @@
+790:754174363245cbeec0cdc1be9ef171a1b0153660
+0
+1
+installed:793:17a4219378eba3d4981b08e694e5fb21d21d1301
+3
+mbr: usbutils,x86_64,0,007,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: lcdissabel,noarch,0,4.0.1,1@a:dependson
+  depends_on: lcdissabel,noarch,0,4.0.1,1@a
+mbr: lcdproc,x86_64,1,0.5.6,2 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: lcdissabel,noarch,0,4.0.1,1@a:dependson
+  depends_on: lcdissabel,noarch,0,4.0.1,1@a
+mbr: lcdissabel,noarch,0,4.0.1,1 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

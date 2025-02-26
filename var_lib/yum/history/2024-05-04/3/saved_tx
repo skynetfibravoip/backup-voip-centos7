@@ -1,0 +1,12 @@
+345:583b4a6deb0469de0920e4fe0f692d0f7bd34a6c
+0
+1
+installed:346:5f765b5d9dd03bcec2edeeb6eea02b6af00f2892
+1
+mbr: wget,x86_64,0,1.14,18.el7_6.1 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

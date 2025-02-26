@@ -1,0 +1,12 @@
+727:18a93e943c2fb5cb0b5395aa0dcb654a5746ba88
+0
+1
+installed:728:7d6227668ab9e30a3ca6dde7e7960947b94e60f9
+1
+mbr: asterisk-perl,noarch,0,1.03,1.el7.centos 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

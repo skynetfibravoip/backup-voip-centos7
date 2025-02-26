@@ -1,0 +1,12 @@
+571:42ed368145cfa9c963b74cba1ec1e8c8f7a9d94a
+0
+1
+installed:572:7a4384adf4b84d31fe58f93393425b78a73c7f01
+1
+mbr: php-bcmath,x86_64,0,5.4.16,48.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

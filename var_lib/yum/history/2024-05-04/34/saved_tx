@@ -1,0 +1,12 @@
+472:942029261899aaa275b9cc1790bb6a7f4707333f
+0
+1
+installed:473:3876c6c65487cb8c9f24d29b2f61f89762f9630a
+1
+mbr: libtiff-devel,x86_64,0,4.0.3,35.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

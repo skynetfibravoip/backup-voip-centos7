@@ -1,0 +1,12 @@
+593:e644df2170ce43db2f73c6fa5fe8e8e0eb8970d6
+0
+1
+installed:594:a9631eaac3502590f3f26ae5c1cf0a1f8b17e66d
+1
+mbr: psmisc,x86_64,0,22.20,17.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

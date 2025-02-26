@@ -1,0 +1,12 @@
+496:aabe33d7535a89c9ab4593339b43f105e3d8dd40
+0
+1
+installed:497:3842e85ea0ac74df10e18eb2b4d93543a7eeed56
+1
+mbr: mgetty,x86_64,0,1.1.36,28.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

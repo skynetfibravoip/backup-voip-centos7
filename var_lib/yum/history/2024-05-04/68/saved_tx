@@ -1,0 +1,12 @@
+529:375afc48a2043b6390dc8b82121983d9c782586a
+0
+1
+installed:530:838f00b7cde5a667f94a2b3335bb27175ba9a00c
+1
+mbr: perl-Digest,noarch,0,1.17,245.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

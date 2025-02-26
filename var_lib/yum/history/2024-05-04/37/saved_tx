@@ -1,0 +1,12 @@
+475:64060c31943a31b52c431e062dccc74c962c09a4
+0
+1
+installed:476:32e7517142a1a64ab8e691bce28c4fa5eaf86319
+1
+mbr: libusb,x86_64,1,0.1.4,3.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

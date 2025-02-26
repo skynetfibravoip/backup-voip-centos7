@@ -1,0 +1,12 @@
+576:288aa0f2e17e361803721aaccf8966bdc629e0ad
+0
+1
+installed:577:67a2de7ad3ffba7882c0d7ccd4cb5ca093137213
+1
+mbr: php-mbstring,x86_64,0,5.4.16,48.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

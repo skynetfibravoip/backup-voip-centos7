@@ -1,0 +1,12 @@
+467:dc75124035a7d54713afa2035e4de5ea14df3d1a
+0
+1
+installed:468:5a388e093a37e7bea1cf772e6fade62cc7bab2ff
+1
+mbr: iptables-devel,x86_64,0,1.4.21,35.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

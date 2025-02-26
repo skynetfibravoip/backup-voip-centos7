@@ -1,0 +1,12 @@
+604:29d366544a25cb7ec0116c893e90ab2992a0bb5f
+0
+1
+installed:605:9d67b644e8f3dee935f663fa18e6d46afb19e887
+1
+mbr: python2-lockfile,noarch,1,0.11.0,17.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

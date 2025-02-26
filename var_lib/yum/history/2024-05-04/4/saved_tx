@@ -1,0 +1,12 @@
+346:5f765b5d9dd03bcec2edeeb6eea02b6af00f2892
+0
+1
+installed:347:0ac6fe032e721a722a7d5ea2683df3f6f36238fc
+1
+mbr: dialog,x86_64,0,1.2,5.20130523.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

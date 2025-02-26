@@ -1,0 +1,21 @@
+572:7a4384adf4b84d31fe58f93393425b78a73c7f01
+0
+1
+installed:574:e51f41803ca13a4e39cfba4cc9f9e1d8f19b99ff
+2
+mbr: t1lib,x86_64,0,5.1.2,14.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php-gd,x86_64,0,5.4.16,48.el7@a:dependson
+  depends_on: php-gd,x86_64,0,5.4.16,48.el7@a
+mbr: php-gd,x86_64,0,5.4.16,48.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

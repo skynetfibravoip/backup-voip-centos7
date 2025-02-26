@@ -1,0 +1,12 @@
+501:4e85e1fc6ae2b505d3de30b7bd060d0c3a405cd5
+0
+1
+installed:502:c354c3423b7ab118ec0e6570d9361508dfe81c15
+1
+mbr: mtools,x86_64,0,4.0.18,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

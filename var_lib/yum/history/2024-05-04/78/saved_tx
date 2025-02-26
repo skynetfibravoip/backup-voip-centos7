@@ -1,0 +1,21 @@
+549:f776df843599a9a5a91a2cfeb4a0cce67065aaac
+0
+1
+installed:551:6e25827042a6941e88808a27c3b4d577bdfbc785
+2
+mbr: perl-IO-Socket-INET6,noarch,0,2.69,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: perl-Socket6,x86_64,0,0.23,15.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-IO-Socket-INET6,noarch,0,2.69,5.el7@a:dependson
+  depends_on: perl-IO-Socket-INET6,noarch,0,2.69,5.el7@a

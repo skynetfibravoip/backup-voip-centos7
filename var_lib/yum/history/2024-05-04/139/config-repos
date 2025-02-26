@@ -1,0 +1,716 @@
+[base]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/7
+baseurl = http://mirror.uepg.br/centos/7.9.2009/os/x86_64/,
+   http://mirror.ci.ifes.edu.br/centos/7.9.2009/os/x86_64/,
+   http://mirror.ufam.edu.br/centos/7.9.2009/os/x86_64/,
+   http://mirror.ufscar.br/centos/7.9.2009/os/x86_64/,
+   http://espejito.fder.edu.uy/centos/7.9.2009/os/x86_64/,
+   http://mirror.megalink.com/centos/7.9.2009/os/x86_64/,
+   http://mirror.ufro.cl/centos/7.9.2009/os/x86_64/,
+   http://mirror.orbyta.com/7.9.2009/os/x86_64/,
+   http://mirror.netglobalis.net/centos/7.9.2009/os/x86_64/,
+   http://edgeuno-bog2.mm.fcix.net/centos/7.9.2009/os/x86_64/
+cache = 0
+cachedir = /var/cache/yum/x86_64/7/base
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = redhat-logos,
+   php53*,
+   kernel*
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/7/base/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/7/base/gpgdir
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+hdrdir = /var/cache/yum/x86_64/7/base/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = http://mirrorlist.centos.org/?release=7&arch=x86_64&repo=os&infra=stock
+mirrorlist_expire = 86400
+mirrorlist_file = /var/cache/yum/x86_64/7/base/mirrorlist.txt
+name = CentOS-7 - Base
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/7/base
+pkgdir = /var/cache/yum/x86_64/7/base/packages
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+retries = 10
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 30.0
+ui_id = base/7/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+[commercial-addons]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/7
+baseurl = http://repo.us.issabel.org/issabel/4/commercial_addons//,
+   http://repo.issabel.org/issabel/4/commercial_addons//
+cache = 0
+cachedir = /var/cache/yum/x86_64/7/commercial-addons
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/7/commercial-addons/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/7/commercial-addons/gpgdir
+gpgkey = http://repo.issabel.org/issabel/RPM-GPG-KEY-Issabel
+hdrdir = /var/cache/yum/x86_64/7/commercial-addons/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = http://mirror.issabel.org/?release=4&arch=&repo=commercial_addons
+mirrorlist_expire = 86400
+mirrorlist_file = /var/cache/yum/x86_64/7/commercial-addons/mirrorlist.txt
+name = Commercial-Addons RPM Repository for Issabel
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/7/commercial-addons
+pkgdir = /var/cache/yum/x86_64/7/commercial-addons/packages
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+retries = 10
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 30.0
+ui_id = commercial-addons
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+[epel]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/7
+baseurl = https://mirror.hnd.cl/epel/7/x86_64/,
+   https://edgeuno-bog2.mm.fcix.net/epel/7/x86_64/,
+   https://mirror.cedia.org.ec/epel/7/x86_64/,
+   https://ftp.icm.edu.pl/pub/Linux/dist/epel/7/x86_64/,
+   https://mirror.hyperdedic.ru/fedora/epel/7/x86_64/,
+   https://mirror.servaxnet.com/epel/7/x86_64/,
+   https://ge.mirror.cloud9.ge/epel/7/x86_64/,
+   https://ftp.halifax.rwth-aachen.de/fedora-epel/7/x86_64/,
+   https://mirror.yandex.ru/epel/7/x86_64/,
+   https://fedora.mirrorservice.org/epel/7/x86_64/,
+   https://mirrors.netix.net/epel/7/x86_64/,
+   https://mirror.arizona.edu/fedora-epel/7/x86_64/,
+   https://linuxsoft.cern.ch/epel/7/x86_64/,
+   https://epel.mirror.digitalpacific.com.au/7/x86_64/,
+   https://pkg.adfinis-on-exoscale.ch/epel/7/x86_64/,
+   https://mirrors.sonic.net/epel/7/x86_64/,
+   https://mirror.cpsc.ucalgary.ca/mirror/fedora-epel/7/x86_64/,
+   https://it2.mirror.vhosting-it.com/epel/7/x86_64/,
+   https://mirror.serverion.com/epel/7/x86_64/,
+   http://mirrors.nav.ro/epel/7/x86_64/,
+   https://mirrors.upr.edu/epel/7/x86_64/,
+   https://mirror.netsite.dk/epel/7/x86_64/,
+   https://mnvoip.mm.fcix.net/epel/7/x86_64/,
+   https://mirrors.dotsrc.org/fedora-epel/7/x86_64/,
+   https://nullroute.mm.fcix.net/epel/7/x86_64/,
+   http://ftp.fi.muni.cz/pub/linux/fedora/epel/7/x86_64/,
+   https://mirrors.20i.com/pub/fedora/epel/7/x86_64/,
+   https://cdn.centos.no/epel/7/x86_64/,
+   https://ohioix.mm.fcix.net/epel/7/x86_64/,
+   https://centos.anexia.at/epel/7/x86_64/,
+   https://uvermont.mm.fcix.net/epel/7/x86_64/,
+   https://mirrors.tuna.tsinghua.edu.cn/epel/7/x86_64/,
+   https://ftp-osl.osuosl.org/pub/fedora-epel/7/x86_64/,
+   https://mir01.syntis.net/epel/7/x86_64/,
+   https://mirrors.uni-ruse.bg/epel/7/x86_64/,
+   http://mirror.sfo12.us.leaseweb.net/epel/7/x86_64/,
+   https://mirror.vpsnet.com/epel/7/x86_64/,
+   https://ftp.fau.de/epel/7/x86_64/,
+   https://ix-denver.mm.fcix.net/epel/7/x86_64/,
+   https://repo.ialab.dsu.edu/epel/7/x86_64/,
+   https://ftp.lysator.liu.se/pub/epel/7/x86_64/,
+   https://mirror.in2p3.fr/pub/epel/7/x86_64/,
+   http://mirrors.syringanetworks.net/fedora-epel/7/x86_64/,
+   https://mirror.ihost.md/fedora-epel/7/x86_64/,
+   https://mirror.bahnhof.net/pub/epel/7/x86_64/,
+   https://mirror.2degrees.nz/fedora-epel/7/x86_64/,
+   https://it1.mirror.vhosting-it.com/epel/7/x86_64/,
+   https://ima.mm.fcix.net/epel/7/x86_64/,
+   https://mirrors.nic.cz/pub/epel/7/x86_64/,
+   https://mirror.nextlayer.at/epel/7/x86_64/,
+   https://na.edge.kernel.org/fedora-epel/7/x86_64/,
+   https://gsl-syd.mm.fcix.net/epel/7/x86_64/,
+   https://mirror.init7.net/fedora/epel/7/x86_64/,
+   https://repo.jing.rocks/fedora-buffet/epel/7/x86_64/,
+   https://ftp.agdsn.de/fedora-epel/7/x86_64/,
+   http://www.nic.funet.fi/pub/mirrors/fedora.redhat.com/pub/epel/7/x86_64/,
+   https://mirror.nyist.edu.cn/epel/7/x86_64/,
+   https://mirror.vsys.host/epel/7/x86_64/,
+   https://ap.edge.kernel.org/fedora-epel/7/x86_64/,
+   https://mirror.mci-1.serverforge.org/epel/7/x86_64/,
+   https://ftp.kaist.ac.kr/pub/epel/7/x86_64/,
+   https://mirrors.ptisp.pt/epel/7/x86_64/,
+   https://mirrors.xtom.ee/epel/7/x86_64/,
+   https://mirror.xenyth.net/epel/7/x86_64/,
+   https://pubmirror1.math.uh.edu/fedora-buffet/epel/7/x86_64/,
+   https://mirror.fmt-2.serverforge.org/epel/7/x86_64/,
+   https://mirror.netone.nl/fedora/epel/7/x86_64/,
+   https://mirror.dogado.de/fedora-epel/7/x86_64/,
+   http://mirrors.neterra.net/epel/7/x86_64/,
+   https://mirror.fcix.net/epel/7/x86_64/,
+   https://epel.mirror.wearetriple.com/7/x86_64/,
+   https://mirrors.ukfast.co.uk/sites/dl.fedoraproject.org/pub/epel/7/x86_64/,
+   https://centos.mirror.alwyzon.net/epel/7/x86_64/,
+   https://ftp.riken.jp/Linux/fedora/epel/7/x86_64/,
+   https://irltoolkit.mm.fcix.net/epel/7/x86_64/,
+   https://epel.hysing.is/7/x86_64/,
+   https://mirror.efect.ro/epel/7/x86_64/,
+   https://mirror.twds.com.tw/fedora/epel/7/x86_64/,
+   https://mirrors.xtom.hk/epel/7/x86_64/,
+   https://mirror.aarnet.edu.au/pub/epel/7/x86_64/,
+   https://mirror.team-cymru.com/epel/7/x86_64/,
+   https://epel.mirror.liquidtelecom.com/epel/7/x86_64/,
+   http://mirror.overthewire.com.au/pub/epel/7/x86_64/,
+   https://mirror.accum.se/mirror/fedora/epel/7/x86_64/,
+   https://opencolo.mm.fcix.net/epel/7/x86_64/,
+   https://epel.mirror.constant.com/7/x86_64/,
+   https://mirror.it4i.cz/epel/7/x86_64/,
+   https://ask4.mm.fcix.net/epel/7/x86_64/,
+   https://ftp.yz.yamagata-u.ac.jp/pub/linux/fedora-projects/epel/7/x86_64/,
+   https://mirror.marwan.ma/fedora/epel/7/x86_64/,
+   https://mirror.pilotfiber.com/epel/7/x86_64/,
+   https://mirror.netzwerge.de/epel/7/x86_64/,
+   https://ziply.mm.fcix.net/epel/7/x86_64/,
+   https://forksystems.mm.fcix.net/epel/7/x86_64/,
+   https://volico.mm.fcix.net/epel/7/x86_64/,
+   https://mirrors.hosterion.ro/fedora/epel/7/x86_64/,
+   https://mirrors.xtom.de/epel/7/x86_64/,
+   http://mirror.de.leaseweb.net/epel/7/x86_64/,
+   https://ftp-stud.hs-esslingen.de/pub/epel/7/x86_64/,
+   https://abqix.mm.fcix.net/epel/7/x86_64/,
+   https://atl.mirrors.knownhost.com/epel/7/x86_64/,
+   https://b4sh.mm.fcix.net/epel/7/x86_64/,
+   https://bungi.mm.fcix.net/epel/7/x86_64/,
+   https://codingflyboy.mm.fcix.net/epel/7/x86_64/,
+   https://creeperhost.mm.fcix.net/epel/7/x86_64/,
+   https://d2lzkl7pfhq30w.cloudfront.net/pub/epel/7/x86_64/,
+   https://divergentnetworks.mm.fcix.net/epel/7/x86_64/,
+   https://dl.fedoraproject.org/pub/epel/7/x86_64/,
+   https://epel.ip-connect.vn.ua/7/x86_64/,
+   https://epel.silknet.com/7/x86_64/,
+   https://epel.srv.magticom.ge/7/x86_64/,
+   https://fastmirror.pp.ua/fedora/epel/7/x86_64/,
+   https://fedora-epel.koyanet.lv/epel/7/x86_64/,
+   https://fedora.dimensiondata.com/fedora-epel/7/x86_64/,
+   https://fr2.rpmfind.net/linux/epel/7/x86_64/,
+   https://ftp.arnes.si/mirrors/epel/7/x86_64/,
+   https://ftp.linux.org.tr/epel/7/x86_64/,
+   https://ftp.nsc.ru/pub/epel/7/x86_64/,
+   https://ftp.plusline.net/epel/7/x86_64/,
+   https://ftp.upjs.sk/pub/mirrors/epel/7/x86_64/,
+   https://ipng.mm.fcix.net/epel/7/x86_64/,
+   https://lchs.mm.fcix.net/epel/7/x86_64/,
+   https://lesnet.mm.fcix.net/epel/7/x86_64/,
+   https://level66.mm.fcix.net/epel/7/x86_64/,
+   https://lolhost.mm.fcix.net/epel/7/x86_64/,
+   https://mirror.01link.hk/epel/7/x86_64/,
+   https://mirror.0xem.ma/epel/7/x86_64/,
+   https://mirror.centos.no/epel/7/x86_64/,
+   https://mirror.citrahost.com/epel/7/x86_64/,
+   https://mirror.cspacehostings.com/epel/7/x86_64/,
+   https://mirror.dal.nexril.net/fedora-epel/7/x86_64/,
+   https://mirror.datacenter.by/pub/fedoraproject.org/epel/7/x86_64/,
+   https://mirror.dimensi.cloud/epel/7/x86_64/,
+   https://mirror.dst.ca/fedora-linux/epel/7/x86_64/,
+   https://mirror.facebook.net/fedora/epel/7/x86_64/,
+   https://mirror.gi.co.id/epel/7/x86_64/,
+   https://mirror.karneval.cz/pub/linux/fedora/epel/7/x86_64/,
+   https://mirror.linux-ia64.org/epel/7/x86_64/,
+   https://mirror.lstn.net/fedora-epel/7/x86_64/,
+   https://mirror.netcologne.de/fedora-epel/7/x86_64/,
+   https://mirror.papua.go.id/epel/7/x86_64/,
+   https://mirror.realcompute.io/epel/7/x86_64/,
+   https://mirror.steadfastnet.com/epel/7/x86_64/,
+   https://mirror.wd6.net/epel/7/x86_64/,
+   https://mirroronet.pl/pub/mirrors/epel/7/x86_64/,
+   https://mirrors.hostiserver.com/fedora/epel/7/x86_64/,
+   https://mirrors.iu13.net/epel/7/x86_64/,
+   https://mirrors.lug.mtu.edu/epel/7/x86_64/,
+   https://mirrors.nxthost.com/epel/7/x86_64/,
+   https://mirrors.wcupa.edu/epel/7/x86_64/,
+   https://nnenix.mm.fcix.net/epel/7/x86_64/,
+   https://nocix.mm.fcix.net/epel/7/x86_64/,
+   https://paducahix.mm.fcix.net/epel/7/x86_64/,
+   https://pubmirror2.math.uh.edu/fedora-buffet/epel/7/x86_64/,
+   https://pubmirror3.math.uh.edu/fedora-buffet/epel/7/x86_64/,
+   https://repo.extreme-ix.org/epel/7/x86_64/,
+   https://repos.eggycrew.com/epel/7/x86_64/,
+   https://repos.silknet.com/epel/7/x86_64/,
+   https://ridgewireless.mm.fcix.net/epel/7/x86_64/,
+   https://southfront.mm.fcix.net/epel/7/x86_64/,
+   https://ucmirror.canterbury.ac.nz/linux/fedora/fedora-epel/7/x86_64/,
+   https://www.fedora.is/fedora/epel/7/x86_64/,
+   http://fedora-mirror02.rbc.ru/pub/epel/7/x86_64/,
+   http://fedora.tu-chemnitz.de/pub/linux/fedora-epel/7/x86_64/,
+   http://ftp.nluug.nl/pub/os/Linux/distr/fedora-epel/7/x86_64/,
+   http://ftp.uni-stuttgart.de/epel/7/x86_64/,
+   http://mirror.cherryservers.com/epel/7/x86_64/,
+   http://mirror.cloudhosting.lv/fedora-epel/7/x86_64/,
+   http://mirror.cogentco.com/pub/linux/epel/7/x86_64/,
+   http://mirror.digitalnova.at/epel/7/x86_64/,
+   http://mirror.logol.ru/epel/7/x86_64/,
+   http://mirror.math.princeton.edu/pub/epel/7/x86_64/,
+   http://mirror.metrocast.net/fedora/epel/7/x86_64/,
+   http://mirror.nl.leaseweb.net/epel/7/x86_64/,
+   http://mirror.nsc.liu.se/fedora-epel/7/x86_64/,
+   http://mirror.rnet.missouri.edu/epel/7/x86_64/,
+   http://mirror.slu.cz/epel/7/x86_64/,
+   http://mirror.tornadovps.com/pub/epel/7/x86_64/,
+   http://mirror.uv.es/mirror/fedora-epel/7/x86_64/,
+   http://mirrors.bfsu.edu.cn/epel/7/x86_64/,
+   http://mirrors.glesys.net/fedora/epel/7/x86_64/,
+   http://mirrors.mit.edu/epel/7/x86_64/,
+   http://mirrors.tscak.com/Fedora/epel/7/x86_64/,
+   http://mirrors.vcea.wsu.edu/epel/7/x86_64/
+cache = 0
+cachedir = /var/cache/yum/x86_64/7/epel
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/7/epel/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/7/epel/gpgdir
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
+hdrdir = /var/cache/yum/x86_64/7/epel/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = https://mirrors.fedoraproject.org/metalink?repo=epel-7&arch=x86_64
+metalink_filename = /var/cache/yum/x86_64/7/epel/metalink.xml
+minrate = 0
+mirrorlist = 
+mirrorlist_expire = 86400
+name = Extra Packages for Enterprise Linux 7 - x86_64
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/7/epel
+pkgdir = /var/cache/yum/x86_64/7/epel/packages
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+retries = 10
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 30.0
+ui_id = epel/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+[extras]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/7
+baseurl = http://mirror.ufscar.br/centos/7.9.2009/extras/x86_64/,
+   http://mirror.ci.ifes.edu.br/centos/7.9.2009/extras/x86_64/,
+   http://mirror.uepg.br/centos/7.9.2009/extras/x86_64/,
+   http://mirror.ufam.edu.br/centos/7.9.2009/extras/x86_64/,
+   http://espejito.fder.edu.uy/centos/7.9.2009/extras/x86_64/,
+   http://mirror.megalink.com/centos/7.9.2009/extras/x86_64/,
+   http://mirror.netglobalis.net/centos/7.9.2009/extras/x86_64/,
+   http://mirror.ufro.cl/centos/7.9.2009/extras/x86_64/,
+   http://mirror.orbyta.com/7.9.2009/extras/x86_64/,
+   http://edgeuno-bog2.mm.fcix.net/centos/7.9.2009/extras/x86_64/
+cache = 0
+cachedir = /var/cache/yum/x86_64/7/extras
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = redhat-logos,
+   php53*,
+   kernel*
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/7/extras/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/7/extras/gpgdir
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+hdrdir = /var/cache/yum/x86_64/7/extras/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = http://mirrorlist.centos.org/?release=7&arch=x86_64&repo=extras&infra=stock
+mirrorlist_expire = 86400
+mirrorlist_file = /var/cache/yum/x86_64/7/extras/mirrorlist.txt
+name = CentOS-7 - Extras
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/7/extras
+pkgdir = /var/cache/yum/x86_64/7/extras/packages
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+retries = 10
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 30.0
+ui_id = extras/7/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+[issabel-base]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/7
+baseurl = http://repo.us.issabel.org/issabel/4/base/x86_64/,
+   http://repo.issabel.org/issabel/4/base/x86_64/
+cache = 0
+cachedir = /var/cache/yum/x86_64/7/issabel-base
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/7/issabel-base/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/7/issabel-base/gpgdir
+gpgkey = http://repo.issabel.org/issabel/RPM-GPG-KEY-Issabel
+hdrdir = /var/cache/yum/x86_64/7/issabel-base/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = http://mirror.issabel.org/?release=4&arch=x86_64&repo=base
+mirrorlist_expire = 86400
+mirrorlist_file = /var/cache/yum/x86_64/7/issabel-base/mirrorlist.txt
+name = Base RPM Repository for Issabel
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/7/issabel-base
+pkgdir = /var/cache/yum/x86_64/7/issabel-base/packages
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+retries = 10
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 30.0
+ui_id = issabel-base/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+[issabel-extras]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/7
+baseurl = http://repo.us.issabel.org/issabel/4/extras/x86_64/,
+   http://repo.issabel.org/issabel/4/extras/x86_64/
+cache = 0
+cachedir = /var/cache/yum/x86_64/7/issabel-extras
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/7/issabel-extras/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/7/issabel-extras/gpgdir
+gpgkey = http://repo.issabel.org/issabel/RPM-GPG-KEY-Issabel
+hdrdir = /var/cache/yum/x86_64/7/issabel-extras/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = http://mirror.issabel.org/?release=4&arch=x86_64&repo=extras
+mirrorlist_expire = 86400
+mirrorlist_file = /var/cache/yum/x86_64/7/issabel-extras/mirrorlist.txt
+name = Extras RPM Repository for Issabel
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/7/issabel-extras
+pkgdir = /var/cache/yum/x86_64/7/issabel-extras/packages
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+retries = 10
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 30.0
+ui_id = issabel-extras/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+[issabel-updates]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/7
+baseurl = http://repo.us.issabel.org/issabel/4/updates/x86_64/,
+   http://repo.issabel.org/issabel/4/updates/x86_64/
+cache = 0
+cachedir = /var/cache/yum/x86_64/7/issabel-updates
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = 
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/7/issabel-updates/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/7/issabel-updates/gpgdir
+gpgkey = http://repo.issabel.org/issabel/RPM-GPG-KEY-Issabel
+hdrdir = /var/cache/yum/x86_64/7/issabel-updates/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = http://mirror.issabel.org/?release=4&arch=x86_64&repo=updates
+mirrorlist_expire = 86400
+mirrorlist_file = /var/cache/yum/x86_64/7/issabel-updates/mirrorlist.txt
+name = Updates RPM Repository for Issabel
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/7/issabel-updates
+pkgdir = /var/cache/yum/x86_64/7/issabel-updates/packages
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+retries = 10
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 30.0
+ui_id = issabel-updates/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+
+[updates]
+async = True
+bandwidth = 0
+base_persistdir = /var/lib/yum/repos/x86_64/7
+baseurl = http://mirror.uepg.br/centos/7.9.2009/updates/x86_64/,
+   http://mirror.ci.ifes.edu.br/centos/7.9.2009/updates/x86_64/,
+   http://mirror.ufam.edu.br/centos/7.9.2009/updates/x86_64/,
+   http://mirror.ufscar.br/centos/7.9.2009/updates/x86_64/,
+   http://espejito.fder.edu.uy/centos/7.9.2009/updates/x86_64/,
+   http://mirror.megalink.com/centos/7.9.2009/updates/x86_64/,
+   http://mirror.netglobalis.net/centos/7.9.2009/updates/x86_64/,
+   http://mirror.ufro.cl/centos/7.9.2009/updates/x86_64/,
+   http://mirror.orbyta.com/7.9.2009/updates/x86_64/,
+   http://edgeuno-bog2.mm.fcix.net/centos/7.9.2009/updates/x86_64/
+cache = 0
+cachedir = /var/cache/yum/x86_64/7/updates
+check_config_file_age = True
+compare_providers_priority = 80
+cost = 1000
+deltarpm_metadata_percentage = 100
+deltarpm_percentage = 
+enabled = True
+enablegroups = True
+exclude = redhat-logos,
+   php53*,
+   kernel*
+failovermethod = priority
+ftp_disable_epsv = False
+gpgcadir = /var/lib/yum/repos/x86_64/7/updates/gpgcadir
+gpgcakey = 
+gpgcheck = True
+gpgdir = /var/lib/yum/repos/x86_64/7/updates/gpgdir
+gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+hdrdir = /var/cache/yum/x86_64/7/updates/headers
+http_caching = all
+includepkgs = 
+ip_resolve = 
+keepalive = True
+keepcache = False
+mddownloadpolicy = sqlite
+mdpolicy = group:small
+mediaid = 
+metadata_expire = 21600
+metadata_expire_filter = read-only:present
+metalink = 
+minrate = 0
+mirrorlist = http://mirrorlist.centos.org/?release=7&arch=x86_64&repo=updates&infra=stock
+mirrorlist_expire = 86400
+mirrorlist_file = /var/cache/yum/x86_64/7/updates/mirrorlist.txt
+name = CentOS-7 - Updates
+old_base_cache_dir = 
+password = 
+persistdir = /var/lib/yum/repos/x86_64/7/updates
+pkgdir = /var/cache/yum/x86_64/7/updates/packages
+proxy = False
+proxy_dict = 
+proxy_password = 
+proxy_username = 
+repo_gpgcheck = False
+retries = 10
+skip_if_unavailable = False
+ssl_check_cert_permissions = True
+sslcacert = 
+sslclientcert = 
+sslclientkey = 
+sslverify = True
+throttle = 0
+timeout = 30.0
+ui_id = updates/7/x86_64
+ui_repoid_vars = releasever,
+   basearch
+username = 
+

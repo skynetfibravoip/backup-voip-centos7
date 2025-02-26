@@ -1,0 +1,12 @@
+606:e2fda6fb6a24cd918ce5625651d3318a74f9afa6
+0
+1
+installed:607:59ad2618f1ca55a1ef0e82506a8efd345e99636f
+1
+mbr: python-sqlalchemy,x86_64,0,0.9.8,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

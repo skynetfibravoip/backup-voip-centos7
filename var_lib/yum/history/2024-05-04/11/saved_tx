@@ -1,0 +1,12 @@
+355:6468b9790872d0fdd7844cc3c2330e318b7509aa
+0
+1
+installed:356:545fa6e3b2f9a9c8341ccbdeb005066d862a3fb9
+1
+mbr: cups-libs,x86_64,1,1.6.3,52.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

@@ -1,0 +1,21 @@
+350:e3fd1aec696013f9cf01daf1a6d8cc693233435b
+0
+1
+installed:352:4041e108507e259836d869808b5b99dbf8872220
+2
+mbr: libseccomp,x86_64,0,2.3.1,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: chrony,x86_64,0,3.4,1.el7@a:dependson
+  depends_on: chrony,x86_64,0,3.4,1.el7@a
+mbr: chrony,x86_64,0,3.4,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

@@ -1,0 +1,30 @@
+457:c8e6e90f35f6d282f9450af101cbdc26101c8498
+0
+1
+installed:460:6b950a4a481e565c7eeb27440e3369358215bc6c
+3
+mbr: glibc-headers,x86_64,0,2.17,326.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: glibc-devel,x86_64,0,2.17,326.el7_9@a:dependson
+  depends_on: glibc-devel,x86_64,0,2.17,326.el7_9@a
+mbr: kernel-headers,x86_64,0,3.10.0,1160.118.1.el7 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: glibc-headers,x86_64,0,2.17,326.el7_9@a:dependson
+  depends_on: glibc-headers,x86_64,0,2.17,326.el7_9@a
+mbr: glibc-devel,x86_64,0,2.17,326.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

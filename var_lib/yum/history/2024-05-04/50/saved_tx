@@ -1,0 +1,12 @@
+497:3842e85ea0ac74df10e18eb2b4d93543a7eeed56
+0
+1
+installed:498:950df4c2c9d74a186907ab390ccb37a1726a1f6e
+1
+mbr: ModemManager-glib,x86_64,0,1.6.10,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

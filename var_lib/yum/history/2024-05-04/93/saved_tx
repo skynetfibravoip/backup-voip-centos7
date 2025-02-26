@@ -1,0 +1,12 @@
+584:df3767e05aa7d11a4a8125aa9af745295d1d18b7
+0
+1
+installed:585:60bbe76436e11d7d8a952cc9801671310c7d8519
+1
+mbr: php-soap,x86_64,0,5.4.16,48.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

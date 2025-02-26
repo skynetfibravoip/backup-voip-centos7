@@ -1,0 +1,12 @@
+605:9d67b644e8f3dee935f663fa18e6d46afb19e887
+0
+1
+installed:606:e2fda6fb6a24cd918ce5625651d3318a74f9afa6
+1
+mbr: python-setuptools,noarch,0,0.9.8,7.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

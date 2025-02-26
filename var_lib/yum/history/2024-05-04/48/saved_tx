@@ -1,0 +1,12 @@
+495:1486023bcbe7be27146ee726fe1416874fafdb3d
+0
+1
+installed:496:aabe33d7535a89c9ab4593339b43f105e3d8dd40
+1
+mbr: memtest86+,x86_64,0,5.01,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

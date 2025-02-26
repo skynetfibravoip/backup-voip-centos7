@@ -1,0 +1,12 @@
+795:92ec69e0df902fcdab99b89e79054eb324922745
+0
+1
+installed:796:ad8662831ad121c55645ed8b1931c7a808dc42b3
+1
+mbr: libtidy,x86_64,0,5.4.0,1.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

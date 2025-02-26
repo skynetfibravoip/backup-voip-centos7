@@ -1,0 +1,30 @@
+509:5aada72dd13b518c0e5e1169c5704cfdec35efa5
+0
+1
+installed:512:12b174149251b67e823b31948394bf51821d3f0f
+3
+mbr: perl-Archive-Tar,noarch,0,1.92,3.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: perl-IO-Zlib,noarch,1,1.10,299.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-Archive-Tar,noarch,0,1.92,3.el7@a:dependson
+  depends_on: perl-Archive-Tar,noarch,0,1.92,3.el7@a
+mbr: perl-Package-Constants,noarch,1,0.02,299.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-Archive-Tar,noarch,0,1.92,3.el7@a:dependson
+  depends_on: perl-Archive-Tar,noarch,0,1.92,3.el7@a

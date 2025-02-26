@@ -1,0 +1,30 @@
+661:f0d5e38eace415512dd4d98185ccf80ff3bdc6a2
+0
+1
+installed:664:4220243fe5d309dcb881648da836ba495300ca11
+3
+mbr: python-augeas,noarch,0,0.5.0,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: python2-certbot-apache,noarch,0,1.11.0,1.el7@a:dependson
+  depends_on: python2-certbot-apache,noarch,0,1.11.0,1.el7@a
+mbr: augeas-libs,x86_64,0,1.4.0,10.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: python-augeas,noarch,0,0.5.0,2.el7@a:dependson
+  depends_on: python-augeas,noarch,0,0.5.0,2.el7@a
+mbr: python2-certbot-apache,noarch,0,1.11.0,1.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

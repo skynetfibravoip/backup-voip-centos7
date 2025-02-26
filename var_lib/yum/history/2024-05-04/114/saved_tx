@@ -1,0 +1,12 @@
+614:0561efc92cb4d977d3e1b1e88b0d889a95bb6b04
+0
+1
+installed:615:ae66158a0c13fb4378483ef43b3d8d3455b9cf7f
+1
+mbr: spandsp,x86_64,0,0.0.6,0.10.pre21.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

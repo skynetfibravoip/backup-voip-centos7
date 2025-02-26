@@ -1,0 +1,21 @@
+807:e96bcb8e7c86350f552d0185d0901f2ef9b3e6d5
+0
+1
+installed:809:0736599b3db84802aedd3da248c72d870f5b17f3
+2
+mbr: xtables-addons,x86_64,0,2.12,3dkms 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: issabel-geoip_key,noarch,0,1.0.0,1 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: xtables-addons,x86_64,0,2.12,3dkms@a:dependson
+  depends_on: xtables-addons,x86_64,0,2.12,3dkms@a

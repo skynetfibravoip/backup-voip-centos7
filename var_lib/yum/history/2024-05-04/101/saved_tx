@@ -1,0 +1,12 @@
+595:152fb8a14039168d86df36648c3ca2954e0d37a0
+0
+1
+installed:596:b95a5f8facf43d84e2b0354238a9967d85a340df
+1
+mbr: python-backports,x86_64,0,1.0,8.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

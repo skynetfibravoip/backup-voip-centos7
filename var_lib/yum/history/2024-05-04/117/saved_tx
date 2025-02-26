@@ -1,0 +1,12 @@
+617:a4477f91437845970203f1f9d79b9000550d1e29
+0
+1
+installed:618:fb0314fe30caa7f15ca16f8f064eb2a6dc46755c
+1
+mbr: syslinux,x86_64,0,4.05,15.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

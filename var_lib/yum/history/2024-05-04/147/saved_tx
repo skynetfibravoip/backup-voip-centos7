@@ -1,0 +1,30 @@
+763:b0e5963c4cc135586ce2cc5b0e12c60bc1f87efd
+0
+1
+installed:766:a46e1af0507b6a0701c19ac595839eefc5e7bad6
+3
+mbr: perl-MIME-tools,noarch,0,5.505,1.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-pbx,noarch,0,4.0.0,6@a:dependson
+  depends_on: issabel-pbx,noarch,0,4.0.0,6@a
+mbr: perl-Convert-BinHex,noarch,0,1.119,20.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-MIME-tools,noarch,0,5.505,1.el7@a:dependson
+  depends_on: perl-MIME-tools,noarch,0,5.505,1.el7@a
+mbr: issabel-pbx,noarch,0,4.0.0,6 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

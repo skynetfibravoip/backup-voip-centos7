@@ -1,0 +1,12 @@
+535:e39ade815a033d874032271f62ac066bb8d49e7b
+0
+1
+installed:536:23813d8b3ef8d25ea7566f20338ce230f7fbcd2e
+1
+mbr: perl-Error,noarch,1,0.17020,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

@@ -1,0 +1,12 @@
+468:5a388e093a37e7bea1cf772e6fade62cc7bab2ff
+0
+1
+installed:469:259b7231fd307ca129a81597c714a23b156048ab
+1
+mbr: kernel-devel,x86_64,0,3.10.0,1160.118.1.el7 70
+  repo: updates
+  ts_state: i
+  output_state: 30
+  isDep: False
+  reason: user
+  reinstall: False

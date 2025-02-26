@@ -1,0 +1,21 @@
+622:f0a114c8f44950d6dfdbfcedd49ce9ee84a2f09e
+0
+1
+installed:624:10d4973e3ec5f375d0d2760b3bea2df58a501389
+2
+mbr: vim-common,x86_64,2,7.4.629,8.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: vim-filesystem,x86_64,2,7.4.629,8.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: vim-common,x86_64,2,7.4.629,8.el7_9@a:dependson
+  depends_on: vim-common,x86_64,2,7.4.629,8.el7_9@a

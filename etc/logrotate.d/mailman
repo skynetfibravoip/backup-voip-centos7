@@ -1,0 +1,8 @@
+/var/log/mailman/bounce /var/log/mailman/digest /var/log/mailman/error /var/log/mailman/post /var/log/mailman/smtp /var/log/mailman/smtp-failure /var/log/mailman/qrunner /var/log/mailman/locks /var/log/mailman/fromusenet /var/log/mailman/subscribe /var/log/mailman/vette {
+    missingok
+    sharedscripts
+    su root root
+    postrotate
+        /usr/lib/mailman/bin/mailmanctl reopen >/dev/null 2>&1 || true
+    endscript
+}

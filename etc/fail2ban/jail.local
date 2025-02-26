@@ -1,0 +1,12 @@
+#START issabel
+[DEFAULT]
+chain=F2B_INPUT
+#END issabel
+#START packetbl
+[asterisk]
+banaction = iptables-multiport-issabelrbl
+action    = %(banaction)s[name=%(__name__)s-tcp, port="%(port)s", protocol="tcp", chain="%(chain)s", actname=%(banaction)s-tcp]
+            %(banaction)s[name=%(__name__)s-udp, port="%(port)s", protocol="udp", chain="%(chain)s", actname=%(banaction)s-udp]
+            %(mta)s-whois[name=%(__name__)s, dest="%(destemail)s"]
+            issabelrbl
+#END packetbl

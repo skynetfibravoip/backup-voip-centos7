@@ -1,0 +1,12 @@
+388:9ee5d9392d05c27b7c75b686941aabde0e75eeac
+0
+1
+installed:389:f8bb76ac5ef5942975f9f26dccdc2d026bb61ea7
+1
+mbr: cyrus-sasl,x86_64,0,2.1.26,24.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

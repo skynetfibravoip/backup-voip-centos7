@@ -1,0 +1,12 @@
+484:f211aab75511d1f86187ca7f4bd4fb4fa286b0e8
+0
+1
+installed:485:a2cc88d274911ee5a116f160d99c77ad2df4b55b
+1
+mbr: mariadb,x86_64,1,5.5.68,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

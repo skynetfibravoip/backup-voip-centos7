@@ -1,0 +1,12 @@
+474:e8ecbcbc4c05e3f9c9883842b2ea20a5a656bb14
+0
+1
+installed:475:64060c31943a31b52c431e062dccc74c962c09a4
+1
+mbr: libtool-ltdl,x86_64,0,2.4.2,22.el7_3 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

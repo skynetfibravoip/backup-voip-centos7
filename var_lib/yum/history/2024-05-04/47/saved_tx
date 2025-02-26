@@ -1,0 +1,12 @@
+494:8fe3bcf3eeb56093d643ec9c6068646d19b82f17
+0
+1
+installed:495:1486023bcbe7be27146ee726fe1416874fafdb3d
+1
+mbr: mdadm,x86_64,0,4.1,9.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

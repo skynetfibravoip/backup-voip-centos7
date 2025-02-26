@@ -1,0 +1,23 @@
+751:aa474e02c3ca39ec691edff33aecf61321117d89
+0
+1
+installed:753:dab3f10ae4bf0ed38a46262769113208a04192b0
+2
+mbr: issabel-email_admin,noarch,0,4.0.0,2 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: RoundCubeMail,noarch,0,0.3.1,13@a:dependson
+  depends_on: RoundCubeMail,noarch,0,0.3.1,13@a
+mbr: RoundCubeMail,noarch,0,0.3.1,13 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-email_admin,noarch,0,4.0.0,2@a:dependson
+  depends_on: issabel-email_admin,noarch,0,4.0.0,2@a

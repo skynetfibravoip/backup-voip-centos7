@@ -1,0 +1,12 @@
+628:b5ca824ec7102b8aac22272f66ed202c4563314f
+0
+1
+installed:629:56d35ef9a7b8a89358c908aeb52f439a23ce4b28
+1
+mbr: unzip,x86_64,0,6.0,24.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

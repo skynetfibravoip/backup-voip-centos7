@@ -1,0 +1,12 @@
+607:59ad2618f1ca55a1ef0e82506a8efd345e99636f
+0
+1
+installed:608:5510b3c35944e8a0ee13e99359ba119951938513
+1
+mbr: python-tempita,noarch,0,0.5.1,6.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

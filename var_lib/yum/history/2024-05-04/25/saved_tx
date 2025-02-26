@@ -1,0 +1,12 @@
+461:1481c0ab2476a7b880fc4f13dfa79e93b83012fc
+0
+1
+installed:462:1e96db1ffe6cc7da8a3041ed37f04915dd1bcdfa
+1
+mbr: grub2-efi-x64,x86_64,1,2.02,0.87.0.2.el7.centos.14 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

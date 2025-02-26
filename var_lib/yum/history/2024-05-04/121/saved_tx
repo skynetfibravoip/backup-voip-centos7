@@ -1,0 +1,12 @@
+621:51cc796a73bdabad2dc5a058ac23609ed1ea2dab
+0
+1
+installed:622:f0a114c8f44950d6dfdbfcedd49ce9ee84a2f09e
+1
+mbr: uuid-perl,x86_64,0,1.6.2,26.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

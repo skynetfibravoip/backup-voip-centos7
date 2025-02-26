@@ -1,0 +1,185 @@
+392:62ebba0ecd5da44d017d0b03deb022588bee0374
+0
+1
+installed:412:3256fa7275e65bca9a1466da735fc24466684a91
+20
+mbr: libX11-common,noarch,0,1.6.7,5.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libX11,x86_64,0,1.6.7,5.el7_9@a:dependson
+  depends_on: libX11,x86_64,0,1.6.7,5.el7_9@a
+mbr: libXext,x86_64,0,1.3.3,3.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libXtst,x86_64,0,1.2.3,1.el7@a:dependson libXi,x86_64,0,1.7.9,1.el7@a:dependson
+  depends_on: libXtst,x86_64,0,1.2.3,1.el7@a libXi,x86_64,0,1.7.9,1.el7@a
+mbr: libasyncns,x86_64,0,0.8,7.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: pulseaudio-libs,x86_64,0,10.0,6.el7_9@a:dependson
+  depends_on: pulseaudio-libs,x86_64,0,10.0,6.el7_9@a
+mbr: libICE,x86_64,0,1.0.9,9.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: pulseaudio-libs,x86_64,0,10.0,6.el7_9@a:dependson libSM,x86_64,0,1.2.2,2.el7@a:dependson
+  depends_on: pulseaudio-libs,x86_64,0,10.0,6.el7_9@a libSM,x86_64,0,1.2.2,2.el7@a
+mbr: libsndfile,x86_64,0,1.0.25,12.el7_9.1 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: pulseaudio-libs,x86_64,0,10.0,6.el7_9@a:dependson
+  depends_on: pulseaudio-libs,x86_64,0,10.0,6.el7_9@a
+mbr: flac-libs,x86_64,0,1.3.0,5.el7_1 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libsndfile,x86_64,0,1.0.25,12.el7_9.1@a:dependson
+  depends_on: libsndfile,x86_64,0,1.0.25,12.el7_9.1@a
+mbr: festival-speechtools-libs,x86_64,0,1.2.96,28.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: festival,x86_64,0,1.96,28.el7@a:dependson festival-lib,x86_64,0,1.96,28.el7@a:dependson
+  depends_on: festival,x86_64,0,1.96,28.el7@a festival-lib,x86_64,0,1.96,28.el7@a
+mbr: libXau,x86_64,0,1.0.8,2.1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libxcb,x86_64,0,1.13,1.el7@a:dependson
+  depends_on: libxcb,x86_64,0,1.13,1.el7@a
+mbr: libvorbis,x86_64,1,1.3.3,8.el7.1 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libsndfile,x86_64,0,1.0.25,12.el7_9.1@a:dependson
+  depends_on: libsndfile,x86_64,0,1.0.25,12.el7_9.1@a
+mbr: libSM,x86_64,0,1.2.2,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: pulseaudio-libs,x86_64,0,10.0,6.el7_9@a:dependson
+  depends_on: pulseaudio-libs,x86_64,0,10.0,6.el7_9@a
+mbr: festival,x86_64,0,1.96,28.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: festvox-slt-arctic-hts,noarch,0,0.20061229,28.el7@a:dependson
+  depends_on: festvox-slt-arctic-hts,noarch,0,0.20061229,28.el7@a
+mbr: gsm,x86_64,0,1.0.13,11.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libsndfile,x86_64,0,1.0.25,12.el7_9.1@a:dependson
+  depends_on: libsndfile,x86_64,0,1.0.25,12.el7_9.1@a
+mbr: festvox-slt-arctic-hts,noarch,0,0.20061229,28.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: festival,x86_64,0,1.96,28.el7@a:dependson
+  depends_on: festival,x86_64,0,1.96,28.el7@a
+mbr: pulseaudio-libs,x86_64,0,10.0,6.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: festival-speechtools-libs,x86_64,0,1.2.96,28.el7@a:dependson
+  depends_on: festival-speechtools-libs,x86_64,0,1.2.96,28.el7@a
+mbr: libX11,x86_64,0,1.6.7,5.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: pulseaudio-libs,x86_64,0,10.0,6.el7_9@a:dependson libXtst,x86_64,0,1.2.3,1.el7@a:dependson libXtst,x86_64,0,1.2.3,1.el7@a:dependson libXext,x86_64,0,1.3.3,3.el7@a:dependson libXext,x86_64,0,1.3.3,3.el7@a:dependson libXi,x86_64,0,1.7.9,1.el7@a:dependson libXi,x86_64,0,1.7.9,1.el7@a:dependson
+  depends_on: pulseaudio-libs,x86_64,0,10.0,6.el7_9@a libXtst,x86_64,0,1.2.3,1.el7@a libXtst,x86_64,0,1.2.3,1.el7@a libXext,x86_64,0,1.3.3,3.el7@a libXext,x86_64,0,1.3.3,3.el7@a libXi,x86_64,0,1.7.9,1.el7@a libXi,x86_64,0,1.7.9,1.el7@a
+mbr: libXi,x86_64,0,1.7.9,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libXtst,x86_64,0,1.2.3,1.el7@a:dependson
+  depends_on: libXtst,x86_64,0,1.2.3,1.el7@a
+mbr: libXtst,x86_64,0,1.2.3,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: pulseaudio-libs,x86_64,0,10.0,6.el7_9@a:dependson
+  depends_on: pulseaudio-libs,x86_64,0,10.0,6.el7_9@a
+mbr: libxcb,x86_64,0,1.13,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: pulseaudio-libs,x86_64,0,10.0,6.el7_9@a:dependson libX11,x86_64,0,1.6.7,5.el7_9@a:dependson
+  depends_on: pulseaudio-libs,x86_64,0,10.0,6.el7_9@a libX11,x86_64,0,1.6.7,5.el7_9@a
+mbr: libogg,x86_64,2,1.3.0,7.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libsndfile,x86_64,0,1.0.25,12.el7_9.1@a:dependson flac-libs,x86_64,0,1.3.0,5.el7_1@a:dependson libvorbis,x86_64,1,1.3.3,8.el7.1@a:dependson
+  depends_on: libsndfile,x86_64,0,1.0.25,12.el7_9.1@a flac-libs,x86_64,0,1.3.0,5.el7_1@a libvorbis,x86_64,1,1.3.3,8.el7.1@a
+mbr: festival-lib,x86_64,0,1.96,28.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: festival,x86_64,0,1.96,28.el7@a:dependson
+  depends_on: festival,x86_64,0,1.96,28.el7@a

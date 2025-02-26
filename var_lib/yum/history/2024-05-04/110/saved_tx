@@ -1,0 +1,12 @@
+609:a18d19d0853393dcc53b9d0f3f446033ade94403
+0
+1
+installed:610:f357fc56405216c39c6d084de8ccde88dc5bb590
+1
+mbr: sharutils,x86_64,0,4.13.3,8.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

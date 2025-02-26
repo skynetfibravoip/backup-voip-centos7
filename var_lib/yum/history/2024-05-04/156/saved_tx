@@ -1,0 +1,12 @@
+796:ad8662831ad121c55645ed8b1931c7a808dc42b3
+0
+1
+installed:797:521b012fbb09e2e6fcae42b386d98371108b899e
+1
+mbr: mysql-to-mariadb-server,noarch,0,1.0,0 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

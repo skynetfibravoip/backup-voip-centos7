@@ -1,0 +1,21 @@
+546:dca95afa5b943c121c96c4c3f946d3a74ab6edcf
+0
+1
+installed:548:9c5186447c90d78f6d1aaeaf026d4c00a2a1c475
+2
+mbr: perl-IO-Socket-IP,noarch,0,0.21,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-HTTP-Daemon,noarch,0,6.01,8.el7@a:dependson
+  depends_on: perl-HTTP-Daemon,noarch,0,6.01,8.el7@a
+mbr: perl-HTTP-Daemon,noarch,0,6.01,8.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

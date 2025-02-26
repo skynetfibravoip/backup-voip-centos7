@@ -1,0 +1,39 @@
+746:68d645eee9d79253f363efd36e83b003f2752f55
+0
+1
+installed:750:2054e006ba8bf4f020e91e1cda4174a621c9a125
+4
+mbr: issabelPBX,noarch,0,2.11.0,48 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabel-agenda,noarch,0,4.0.0,3@a:dependson
+  depends_on: issabel-agenda,noarch,0,4.0.0,3@a
+mbr: php-pear-DB,noarch,0,1.7.14,6.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabelPBX,noarch,0,2.11.0,48@a:dependson
+  depends_on: issabelPBX,noarch,0,2.11.0,48@a
+mbr: picotts,x86_64,0,17.08.10,1.el7 70
+  repo: issabel-extras
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: issabelPBX,noarch,0,2.11.0,48@a:dependson
+  depends_on: issabelPBX,noarch,0,2.11.0,48@a
+mbr: issabel-agenda,noarch,0,4.0.0,3 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

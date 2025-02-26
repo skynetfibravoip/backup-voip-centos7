@@ -1,0 +1,12 @@
+591:23ee97bd48bbc9472401ef3fa84451eb0cd9baa4
+0
+1
+installed:592:b260adde1494aa91348cb18705bb54bd097a3e8d
+1
+mbr: postgresql-libs,x86_64,0,9.2.24,9.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

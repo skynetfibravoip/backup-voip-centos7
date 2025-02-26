@@ -1,0 +1,12 @@
+731:7e7fb3972b4bd01a955a31437e1f45b9d396b422
+0
+1
+installed:732:1a9e71d3928930bafce0bc3311bfa4e73f5910fd
+1
+mbr: avahi,x86_64,0,0.6.31,20.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

@@ -1,0 +1,12 @@
+annotation_db=skiplist
+duplicate_db=skiplist
+mboxkey_db=skiplist
+mboxlist_db=skiplist
+ptscache_db=skiplist
+quota_db=quotalegacy
+seenstate_db=skiplist
+sieve_version=2.2.3
+statuscache_db=skiplist
+subscription_db=flat
+tlscache_db=skiplist
+userdeny_db=flat

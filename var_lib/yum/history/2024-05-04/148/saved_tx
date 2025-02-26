@@ -1,0 +1,12 @@
+766:a46e1af0507b6a0701c19ac595839eefc5e7bad6
+0
+1
+installed:767:04e9a11d0679078b0c6daa2d99a3326fbae9956f
+1
+mbr: issabel-portknock,x86_64,0,4.0.0,2 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

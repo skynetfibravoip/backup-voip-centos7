@@ -1,0 +1,12 @@
+460:6b950a4a481e565c7eeb27440e3369358215bc6c
+0
+1
+installed:461:1481c0ab2476a7b880fc4f13dfa79e93b83012fc
+1
+mbr: gpm-libs,x86_64,0,1.20.7,6.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

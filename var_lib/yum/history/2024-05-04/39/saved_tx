@@ -1,0 +1,12 @@
+477:07ca6cf76d160ae29fcbfe29fb60a071ac7b505b
+0
+1
+installed:478:187321c4c544660ac37c4817f0508f18d3dc0917
+1
+mbr: libXpm,x86_64,0,3.5.12,2.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

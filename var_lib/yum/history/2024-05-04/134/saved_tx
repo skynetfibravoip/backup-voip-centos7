@@ -1,0 +1,12 @@
+729:a51fb510b35f267ee608898085fa98bfbaa30dbb
+0
+1
+installed:730:ad7dce4d4bc0c4f5dfc8e070d3a337b1d41c1961
+1
+mbr: asterisk-fr-sounds,x86_64,0,1.0.0,0.el7.centos 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

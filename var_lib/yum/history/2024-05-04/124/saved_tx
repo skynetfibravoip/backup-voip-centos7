@@ -1,0 +1,12 @@
+625:6e06fda234b0c6a60f2ddf0f2aefd6fc7bb86ec4
+0
+1
+installed:626:9fbef70cf21321fc4de1a53100fefce3198a1242
+1
+mbr: vsftpd,x86_64,0,3.0.2,29.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

@@ -1,0 +1,12 @@
+456:403198412037bb2ee5163dc1e1711f1f083affcf
+0
+1
+installed:457:c8e6e90f35f6d282f9450af101cbdc26101c8498
+1
+mbr: ghostscript-fonts,noarch,0,5.50,32.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

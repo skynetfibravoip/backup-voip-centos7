@@ -1,0 +1,13 @@
+[1m
+  O [96m@ [91m@    [0mIssabel is a product meant to be configured through a web browser.
+  [31;1m@ [35m@ [39mO    [0mAny changes made from within the command line may corrupt the system
+  [33;1m@ [39mO O    [0mconfiguration and produce unexpected behavior; in addition, changes
+[1m    O      [0mmade to system files through here may be lost when doing an update.
+
+To access your Issabel System, using a separate workstation (PC/MAC/Linux)
+Open the Internet Browser using the following URL:
+[4m
+https://45.70.210.22
+[0m
+[1mYour opportunity to give back: [4mhttp://www.patreon.com/issabel[0m
+ 

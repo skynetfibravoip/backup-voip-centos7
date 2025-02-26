@@ -1,0 +1,12 @@
+421:9fe03c7b9fb08394a19465efdfcf5f6d60226e48
+0
+1
+installed:422:d6c5b9f3a15d5f73f1f33c982c7cd2ac9e8c77f6
+1
+mbr: gdbm-devel,x86_64,0,1.10,8.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

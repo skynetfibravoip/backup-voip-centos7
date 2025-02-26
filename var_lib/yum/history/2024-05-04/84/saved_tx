@@ -1,0 +1,12 @@
+567:2b4fa5323262c67fed1579a734236a4d34b192aa
+0
+1
+installed:568:394ce7d3cbef680715a4dec71e67e086200ab036
+1
+mbr: perl-Sys-Syslog,x86_64,0,0.33,3.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

@@ -1,0 +1,30 @@
+536:23813d8b3ef8d25ea7566f20338ce230f7fbcd2e
+0
+1
+installed:539:d0d1a23529a89254edc03ce035cc1137a9d11e64
+3
+mbr: perl-TimeDate,noarch,1,2.30,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-HTTP-Date,noarch,0,6.02,8.el7@a:dependson
+  depends_on: perl-HTTP-Date,noarch,0,6.02,8.el7@a
+mbr: perl-File-Listing,noarch,0,6.04,7.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: perl-HTTP-Date,noarch,0,6.02,8.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-File-Listing,noarch,0,6.04,7.el7@a:dependson
+  depends_on: perl-File-Listing,noarch,0,6.04,7.el7@a

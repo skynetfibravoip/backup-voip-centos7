@@ -1,0 +1,30 @@
+530:838f00b7cde5a667f94a2b3335bb27175ba9a00c
+0
+1
+installed:533:0bf3808a16c26df403131b60f9f50a2e649f1cfa
+3
+mbr: perl-Digest-HMAC,noarch,0,1.03,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: perl-Digest-MD5,x86_64,0,2.52,3.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-Digest-HMAC,noarch,0,1.03,5.el7@a:dependson
+  depends_on: perl-Digest-HMAC,noarch,0,1.03,5.el7@a
+mbr: perl-Digest-SHA,x86_64,1,5.85,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-Digest-HMAC,noarch,0,1.03,5.el7@a:dependson
+  depends_on: perl-Digest-HMAC,noarch,0,1.03,5.el7@a

@@ -1,0 +1,12 @@
+620:f44758be73a721c366100c90cf29ff46a360bdec
+0
+1
+installed:621:51cc796a73bdabad2dc5a058ac23609ed1ea2dab
+1
+mbr: uuid,x86_64,0,1.6.2,26.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

@@ -1,0 +1,30 @@
+598:68fc4058be19ea90ec188476ce8961c38ba9d281
+0
+1
+installed:601:4fd881fca33ee93c94cf07fc11709ac047e379dd
+3
+mbr: libtommath,x86_64,0,0.42.0,6.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libtomcrypt,x86_64,0,1.17,26.el7@a:dependson
+  depends_on: libtomcrypt,x86_64,0,1.17,26.el7@a
+mbr: libtomcrypt,x86_64,0,1.17,26.el7 70
+  repo: extras
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: python2-crypto,x86_64,0,2.6.1,16.el7@a:dependson
+  depends_on: python2-crypto,x86_64,0,2.6.1,16.el7@a
+mbr: python2-crypto,x86_64,0,2.6.1,16.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

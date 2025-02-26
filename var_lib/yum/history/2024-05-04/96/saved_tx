@@ -1,0 +1,12 @@
+590:ceb44d9746925426f752ab173d2637bda56204c7
+0
+1
+installed:591:23ee97bd48bbc9472401ef3fa84451eb0cd9baa4
+1
+mbr: portreserve,x86_64,0,0.0.5,11.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

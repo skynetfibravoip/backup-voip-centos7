@@ -1,0 +1,12 @@
+533:0bf3808a16c26df403131b60f9f50a2e649f1cfa
+0
+1
+installed:534:055a16c5bd05c66fcce551cfe284de65abafa6f4
+1
+mbr: perl-Encode-Detect,x86_64,0,1.01,13.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

@@ -1,0 +1,12 @@
+616:ee61efe33546e1258304120317a2b688b0067e05
+0
+1
+installed:617:a4477f91437845970203f1f9d79b9000550d1e29
+1
+mbr: speex,x86_64,0,1.2,0.19.rc1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

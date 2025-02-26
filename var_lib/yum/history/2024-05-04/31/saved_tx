@@ -1,0 +1,12 @@
+469:259b7231fd307ca129a81597c714a23b156048ab
+0
+1
+installed:470:0119c1cf83ad697cd55629c0ec74000ad33b237b
+1
+mbr: libao,x86_64,0,1.1.0,8.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

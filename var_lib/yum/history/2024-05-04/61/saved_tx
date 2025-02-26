@@ -1,0 +1,21 @@
+514:30bdaed96f219fc10cf97507d2a9671418b7f02b
+0
+1
+installed:516:840bbe61c097cd7900970fd3166a58385c2622bc
+2
+mbr: perl-CGI,noarch,0,3.63,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: perl-FCGI,x86_64,1,0.74,8.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-CGI,noarch,0,3.63,4.el7@a:dependson
+  depends_on: perl-CGI,noarch,0,3.63,4.el7@a

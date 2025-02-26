@@ -1,0 +1,84 @@
+485:a2cc88d274911ee5a116f160d99c77ad2df4b55b
+0
+1
+installed:494:8fe3bcf3eeb56093d643ec9c6068646d19b82f17
+9
+mbr: perl-Net-Daemon,noarch,0,0.48,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-PlRPC,noarch,0,0.2020,14.el7@a:dependson
+  depends_on: perl-PlRPC,noarch,0,0.2020,14.el7@a
+mbr: perl-Data-Dumper,x86_64,0,2.145,3.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mariadb-server,x86_64,1,5.5.68,1.el7@a:dependson perl-DBI,x86_64,0,1.627,4.el7@a:dependson
+  depends_on: mariadb-server,x86_64,1,5.5.68,1.el7@a perl-DBI,x86_64,0,1.627,4.el7@a
+mbr: mariadb-server,x86_64,1,5.5.68,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: perl-DBD-MySQL,x86_64,0,4.023,6.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mariadb-server,x86_64,1,5.5.68,1.el7@a:dependson
+  depends_on: mariadb-server,x86_64,1,5.5.68,1.el7@a
+mbr: perl-IO-Compress,noarch,0,2.061,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-PlRPC,noarch,0,0.2020,14.el7@a:dependson
+  depends_on: perl-PlRPC,noarch,0,0.2020,14.el7@a
+mbr: perl-Compress-Raw-Zlib,x86_64,1,2.061,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-IO-Compress,noarch,0,2.061,2.el7@a:dependson
+  depends_on: perl-IO-Compress,noarch,0,2.061,2.el7@a
+mbr: perl-DBI,x86_64,0,1.627,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mariadb-server,x86_64,1,5.5.68,1.el7@a:dependson perl-DBD-MySQL,x86_64,0,4.023,6.el7@a:dependson perl-DBD-MySQL,x86_64,0,4.023,6.el7@a:dependson
+  depends_on: mariadb-server,x86_64,1,5.5.68,1.el7@a perl-DBD-MySQL,x86_64,0,4.023,6.el7@a perl-DBD-MySQL,x86_64,0,4.023,6.el7@a
+mbr: perl-Compress-Raw-Bzip2,x86_64,0,2.061,3.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-IO-Compress,noarch,0,2.061,2.el7@a:dependson
+  depends_on: perl-IO-Compress,noarch,0,2.061,2.el7@a
+mbr: perl-PlRPC,noarch,0,0.2020,14.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-DBI,x86_64,0,1.627,4.el7@a:dependson
+  depends_on: perl-DBI,x86_64,0,1.627,4.el7@a

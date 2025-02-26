@@ -1,0 +1,12 @@
+534:055a16c5bd05c66fcce551cfe284de65abafa6f4
+0
+1
+installed:535:e39ade815a033d874032271f62ac066bb8d49e7b
+1
+mbr: perl-Encode-Locale,noarch,0,1.03,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

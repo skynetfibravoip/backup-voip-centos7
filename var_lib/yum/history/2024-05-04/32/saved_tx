@@ -1,0 +1,12 @@
+470:0119c1cf83ad697cd55629c0ec74000ad33b237b
+0
+1
+installed:471:8656f7fe6ed9fad3f441e827550c8d7197a9f196
+1
+mbr: libdb-devel,x86_64,0,5.3.21,25.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

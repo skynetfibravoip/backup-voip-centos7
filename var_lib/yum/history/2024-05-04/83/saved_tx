@@ -1,0 +1,30 @@
+564:926a034e8fabdf3a018eb616061f09f23ef8640c
+0
+1
+installed:567:2b4fa5323262c67fed1579a734236a4d34b192aa
+3
+mbr: perl-NetAddr-IP,x86_64,0,4.069,3.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-Mail-SPF,noarch,0,2.8.0,4.el7@a:dependson
+  depends_on: perl-Mail-SPF,noarch,0,2.8.0,4.el7@a
+mbr: perl-version,x86_64,3,0.99.07,6.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: perl-Mail-SPF,noarch,0,2.8.0,4.el7@a:dependson
+  depends_on: perl-Mail-SPF,noarch,0,2.8.0,4.el7@a
+mbr: perl-Mail-SPF,noarch,0,2.8.0,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

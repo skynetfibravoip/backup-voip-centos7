@@ -1,0 +1,12 @@
+806:e6b669df9fc63115408441ed5f783558810b2ed8
+0
+1
+installed:807:e96bcb8e7c86350f552d0185d0901f2ef9b3e6d5
+1
+mbr: perl-Text-CSV_XS,x86_64,0,1.00,3.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

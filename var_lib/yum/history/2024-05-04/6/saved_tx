@@ -1,0 +1,12 @@
+348:8bbd00ea8a46b781b3162d19fd5673771ae55a09
+0
+1
+installed:349:46e38a7ba4d3b701e42de6e7dbf9f88913d11f1f
+1
+mbr: apr-util,x86_64,0,1.5.2,6.el7_9.1 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

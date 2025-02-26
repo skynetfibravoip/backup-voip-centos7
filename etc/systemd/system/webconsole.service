@@ -1,0 +1,19 @@
+[Unit]
+Description=Web Console
+After=network.target
+
+[Service]
+User=root
+Group=root
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=webconsole
+
+Environment=TERM=xterm-256color
+EnvironmentFile=/etc/sysconfig/webconsole
+ExecStart=/usr/local/bin/webconsole -a 127.0.0.1 -p 8075 $OPTIONS -w $COMMAND
+
+[Install]
+WantedBy=multi-user.target
+
+

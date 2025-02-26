@@ -1,0 +1,12 @@
+516:840bbe61c097cd7900970fd3166a58385c2622bc
+0
+1
+installed:517:ace62161d9ddcb39702df282ee2665de21793140
+1
+mbr: perl-Crypt-OpenSSL-Bignum,x86_64,0,0.04,18.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

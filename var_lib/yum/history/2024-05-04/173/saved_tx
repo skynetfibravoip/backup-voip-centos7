@@ -1,0 +1,12 @@
+888:ef61c4c68c99576738a87b4461172003f31b2779
+0
+1
+installed:889:6c0dbb92897cad0fcc691db6e902a6793a04a388
+1
+mbr: rp-pppoe,x86_64,0,3.11,7.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

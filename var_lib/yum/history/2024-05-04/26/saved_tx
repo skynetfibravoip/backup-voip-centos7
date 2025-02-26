@@ -1,0 +1,12 @@
+462:1e96db1ffe6cc7da8a3041ed37f04915dd1bcdfa
+0
+1
+installed:463:c26d9f2e8d049a9451c88972ef07dc2de2bfbdc6
+1
+mbr: hdparm,x86_64,0,9.43,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

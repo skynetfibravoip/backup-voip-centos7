@@ -1,0 +1,12 @@
+876:5c49eeebad781fd643d7937b29d1b8a65205cb01
+0
+1
+installed:877:0dcc30ac9d60cbd891a294376b3bdbcdc2d9c3f2
+1
+mbr: issabel-theme_designer,noarch,0,1.0.0,1 70
+  repo: commercial-addons
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

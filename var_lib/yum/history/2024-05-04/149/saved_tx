@@ -1,0 +1,12 @@
+767:04e9a11d0679078b0c6daa2d99a3326fbae9956f
+0
+1
+installed:768:79974f3931fdf9741d566f86fe7e93dff06ff48c
+1
+mbr: issabel-reports,noarch,0,4.0.0,3 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

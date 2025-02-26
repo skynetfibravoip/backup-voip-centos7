@@ -1,0 +1,6 @@
+
+#!/bin/bash
+#
+# Inicializar a conexão PPPoE na inicialização
+/usr/sbin/pppd call pppoe &
+

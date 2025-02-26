@@ -1,0 +1,12 @@
+480:662d1b721dd5005e15c7835cc1855f85d8deec4d
+0
+1
+installed:481:3425784ac8dd7e963a67e18b0841606f1c631a8d
+1
+mbr: lockdev,x86_64,0,1.0.4,0.13.20111007git.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

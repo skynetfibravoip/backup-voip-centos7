@@ -1,0 +1,12 @@
+354:9546523729d994211928b00120767b6384607137
+0
+1
+installed:355:6468b9790872d0fdd7844cc3c2330e318b7509aa
+1
+mbr: cronie-noanacron,x86_64,0,1.4.11,25.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

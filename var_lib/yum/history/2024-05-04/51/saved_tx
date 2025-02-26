@@ -1,0 +1,12 @@
+498:950df4c2c9d74a186907ab390ccb37a1726a1f6e
+0
+1
+installed:499:3b0e4ea54b7eb43e4de17ec3be9fd931d7b00a03
+1
+mbr: mod_ssl,x86_64,1,2.4.6,99.el7.centos.1 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

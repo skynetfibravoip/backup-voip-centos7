@@ -1,0 +1,12 @@
+518:5199f38ad2e9e9c61538447096038cbdb5d142fe
+0
+1
+installed:519:0388fd5fff72993d519eff5cbe7d90d5a660ca10
+1
+mbr: perl-Crypt-OpenSSL-RSA,x86_64,0,0.28,7.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

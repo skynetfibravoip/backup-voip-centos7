@@ -1,0 +1,561 @@
+664:4220243fe5d309dcb881648da836ba495300ca11
+0
+1
+installed:726:634bc3f5b9b8c0fedd7d5a13eae032865a4404c7
+62
+mbr: libmpc,x86_64,0,1.0.1,3.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: gcc,x86_64,0,4.8.5,44.el7@a:dependson cpp,x86_64,0,4.8.5,44.el7@a:dependson
+  depends_on: gcc,x86_64,0,4.8.5,44.el7@a cpp,x86_64,0,4.8.5,44.el7@a
+mbr: asterisk13-voicemail,x86_64,0,13.30.0,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: libsrtp,x86_64,0,1.5.2,0 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-core,x86_64,0,13.30.0,1.el7@a:dependson asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-core,x86_64,0,13.30.0,1.el7@a asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: boost-thread,x86_64,0,1.53.0,28.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: tncfhh-libs,x86_64,0,0.8.3,16.el7@a:dependson tncfhh-utils,x86_64,0,0.8.3,16.el7@a:dependson
+  depends_on: tncfhh-libs,x86_64,0,0.8.3,16.el7@a tncfhh-utils,x86_64,0,0.8.3,16.el7@a
+mbr: libss7,x86_64,0,2.0.1,5.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-dahdi,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-dahdi,x86_64,0,13.30.0,1.el7@a
+mbr: dkms,noarch,0,3.0.12,1.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: dahdi-linux,noarch,0,2.11.1,5dkms@a:dependson
+  depends_on: dahdi-linux,noarch,0,2.11.1,5dkms@a
+mbr: libsigc++20,x86_64,0,2.10.0,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libffado,x86_64,0,2.1.0,4.el7@a:dependson glibmm24,x86_64,0,2.56.0,1.el7@a:dependson glibmm24,x86_64,0,2.56.0,1.el7@a:dependson libxml++,x86_64,0,2.37.1,1.el7@a:dependson
+  depends_on: libffado,x86_64,0,2.1.0,4.el7@a glibmm24,x86_64,0,2.56.0,1.el7@a glibmm24,x86_64,0,2.56.0,1.el7@a libxml++,x86_64,0,2.37.1,1.el7@a
+mbr: libresample,x86_64,0,0.1.3,13.el7.centos 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-core,x86_64,0,13.30.0,1.el7@a:dependson asterisk13,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-resample,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-core,x86_64,0,13.30.0,1.el7@a asterisk13,x86_64,0,13.30.0,1.el7@a asterisk13-resample,x86_64,0,13.30.0,1.el7@a
+mbr: glibmm24,x86_64,0,2.56.0,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libffado,x86_64,0,2.1.0,4.el7@a:dependson libxml++,x86_64,0,2.37.1,1.el7@a:dependson
+  depends_on: libffado,x86_64,0,2.1.0,4.el7@a libxml++,x86_64,0,2.37.1,1.el7@a
+mbr: asterisk13,x86_64,0,13.30.0,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-core,x86_64,0,13.30.0,1.el7@a:dependson asterisk-sounds-en-gsm,noarch,0,1.5,1.el7.centos@a:dependson
+  depends_on: asterisk13-core,x86_64,0,13.30.0,1.el7@a asterisk-sounds-en-gsm,noarch,0,1.5,1.el7.centos@a
+mbr: asterisk-sounds-en-gsm,noarch,0,1.5,1.el7.centos 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: neon,x86_64,0,0.30.0,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-core,x86_64,0,13.30.0,1.el7@a:dependson asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-core,x86_64,0,13.30.0,1.el7@a asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: libxml++,x86_64,0,2.37.1,1.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libffado,x86_64,0,2.1.0,4.el7@a:dependson
+  depends_on: libffado,x86_64,0,2.1.0,4.el7@a
+mbr: dahdi-tools,x86_64,0,2.11.1,31.el7.centos 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: dahdi-linux,noarch,0,2.11.1,5dkms@a:dependson dahdi,x86_64,0,2.11.1,1.el7.centos@a:dependson
+  depends_on: dahdi-linux,noarch,0,2.11.1,5dkms@a dahdi,x86_64,0,2.11.1,1.el7.centos@a
+mbr: jack-audio-connection-kit,x86_64,0,1.9.9.5,6.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-core,x86_64,0,13.30.0,1.el7@a:dependson asterisk13,x86_64,0,13.30.0,1.el7@a:dependson portaudio,x86_64,0,19,16.el7@a:dependson
+  depends_on: asterisk13-core,x86_64,0,13.30.0,1.el7@a asterisk13,x86_64,0,13.30.0,1.el7@a portaudio,x86_64,0,19,16.el7@a
+mbr: portaudio,x86_64,0,19,16.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-core,x86_64,0,13.30.0,1.el7@a:dependson asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-core,x86_64,0,13.30.0,1.el7@a asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: freeradius,x86_64,0,3.0.13,15.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: asterisk13-addons,x86_64,0,13.30.0,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: libffado,x86_64,0,2.1.0,4.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: jack-audio-connection-kit,x86_64,0,1.9.9.5,6.el7@a:dependson
+  depends_on: jack-audio-connection-kit,x86_64,0,1.9.9.5,6.el7@a
+mbr: tncfhh,x86_64,0,0.8.3,16.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: tncfhh-libs,x86_64,0,0.8.3,16.el7@a:dependson
+  depends_on: tncfhh-libs,x86_64,0,0.8.3,16.el7@a
+mbr: libopenr2,x86_64,0,1.3.3,1.el7.centos 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-dahdi,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-dahdi,x86_64,0,13.30.0,1.el7@a
+mbr: xerces-c,x86_64,0,3.1.1,10.el7_7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: tncfhh-libs,x86_64,0,0.8.3,16.el7@a:dependson tncfhh-utils,x86_64,0,0.8.3,16.el7@a:dependson
+  depends_on: tncfhh-libs,x86_64,0,0.8.3,16.el7@a tncfhh-utils,x86_64,0,0.8.3,16.el7@a
+mbr: asterisk13-addons-core,x86_64,0,13.30.0,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-addons,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-addons-mysql,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-addons,x86_64,0,13.30.0,1.el7@a asterisk13-addons-mysql,x86_64,0,13.30.0,1.el7@a
+mbr: libsamplerate,x86_64,0,0.1.8,6.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: jack-audio-connection-kit,x86_64,0,1.9.9.5,6.el7@a:dependson
+  depends_on: jack-audio-connection-kit,x86_64,0,1.9.9.5,6.el7@a
+mbr: cpp,x86_64,0,4.8.5,44.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: gcc,x86_64,0,4.8.5,44.el7@a:dependson
+  depends_on: gcc,x86_64,0,4.8.5,44.el7@a
+mbr: libpri,x86_64,0,1.6.1,1.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-dahdi,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-dahdi,x86_64,0,13.30.0,1.el7@a
+mbr: libical,x86_64,0,3.0.3,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-core,x86_64,0,13.30.0,1.el7@a:dependson asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-core,x86_64,0,13.30.0,1.el7@a asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: libicu,x86_64,0,50.2,4.el7_7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libical,x86_64,0,3.0.3,2.el7@a:dependson
+  depends_on: libical,x86_64,0,3.0.3,2.el7@a
+mbr: asterisk13-resample,x86_64,0,13.30.0,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: asterisk13-addons-bluetooth,x86_64,0,13.30.0,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-addons,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-addons,x86_64,0,13.30.0,1.el7@a
+mbr: zlib-devel,x86_64,0,1.2.7,21.el7_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: elfutils-libelf-devel,x86_64,0,0.176,5.el7@a:dependson
+  depends_on: elfutils-libelf-devel,x86_64,0,0.176,5.el7@a
+mbr: dahdi,x86_64,0,2.11.1,1.el7.centos 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: dahdi-linux,noarch,0,2.11.1,5dkms@a:dependson
+  depends_on: dahdi-linux,noarch,0,2.11.1,5dkms@a
+mbr: gmime,x86_64,0,2.6.23,1.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-core,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-core,x86_64,0,13.30.0,1.el7@a
+mbr: boost-system,x86_64,0,1.53.0,28.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: tncfhh-libs,x86_64,0,0.8.3,16.el7@a:dependson boost-thread,x86_64,0,1.53.0,28.el7@a:dependson boost-thread,x86_64,0,1.53.0,28.el7@a:dependson tncfhh-utils,x86_64,0,0.8.3,16.el7@a:dependson
+  depends_on: tncfhh-libs,x86_64,0,0.8.3,16.el7@a boost-thread,x86_64,0,1.53.0,28.el7@a boost-thread,x86_64,0,1.53.0,28.el7@a tncfhh-utils,x86_64,0,0.8.3,16.el7@a
+mbr: dahdi-linux,noarch,0,2.11.1,5dkms 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-dahdi,x86_64,0,13.30.0,1.el7@a:dependson dahdi,x86_64,0,2.11.1,1.el7.centos@a:dependson dahdi-tools,x86_64,0,2.11.1,31.el7.centos@a:dependson
+  depends_on: asterisk13-dahdi,x86_64,0,13.30.0,1.el7@a dahdi,x86_64,0,2.11.1,1.el7.centos@a dahdi-tools,x86_64,0,2.11.1,31.el7.centos@a
+mbr: asterisk13-addons-mysql,x86_64,0,13.30.0,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-addons,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-addons,x86_64,0,13.30.0,1.el7@a
+mbr: libconfig,x86_64,0,1.4.9,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libffado,x86_64,0,2.1.0,4.el7@a:dependson
+  depends_on: libffado,x86_64,0,2.1.0,4.el7@a
+mbr: libtonezone,x86_64,0,2.11.1,1.el7.centos 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-dahdi,x86_64,0,13.30.0,1.el7@a:dependson dahdi-tools,x86_64,0,2.11.1,31.el7.centos@a:dependson
+  depends_on: asterisk13-dahdi,x86_64,0,13.30.0,1.el7@a dahdi-tools,x86_64,0,2.11.1,31.el7.centos@a
+mbr: libtalloc,x86_64,0,2.1.16,1.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: freeradius,x86_64,0,3.0.13,15.el7@a:dependson
+  depends_on: freeradius,x86_64,0,3.0.13,15.el7@a
+mbr: gcc,x86_64,0,4.8.5,44.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: dkms,noarch,0,3.0.12,1.el7@a:dependson
+  depends_on: dkms,noarch,0,3.0.12,1.el7@a
+mbr: libwat,x86_64,0,1.0.25,0 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: dahdi,x86_64,0,2.11.1,1.el7.centos@a:dependson
+  depends_on: dahdi,x86_64,0,2.11.1,1.el7.centos@a
+mbr: sqlite2,x86_64,0,2.8.17,17.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-core,x86_64,0,13.30.0,1.el7@a:dependson asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-core,x86_64,0,13.30.0,1.el7@a asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: tncfhh-libs,x86_64,0,0.8.3,16.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: freeradius,x86_64,0,3.0.13,15.el7@a:dependson
+  depends_on: freeradius,x86_64,0,3.0.13,15.el7@a
+mbr: asterisk13-dahdi,x86_64,0,13.30.0,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: log4cxx,x86_64,0,0.10.0,16.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: tncfhh-libs,x86_64,0,0.8.3,16.el7@a:dependson tncfhh,x86_64,0,0.8.3,16.el7@a:dependson tncfhh-utils,x86_64,0,0.8.3,16.el7@a:dependson
+  depends_on: tncfhh-libs,x86_64,0,0.8.3,16.el7@a tncfhh,x86_64,0,0.8.3,16.el7@a tncfhh-utils,x86_64,0,0.8.3,16.el7@a
+mbr: asterisk13-devel,x86_64,0,13.30.0,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: elfutils-libelf-devel,x86_64,0,0.176,5.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: dkms,noarch,0,3.0.12,1.el7@a:dependson
+  depends_on: dkms,noarch,0,3.0.12,1.el7@a
+mbr: asterisk13-doc,x86_64,0,13.30.0,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: asterisk13-addons-ooh323,x86_64,0,13.30.0,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-addons,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-addons,x86_64,0,13.30.0,1.el7@a
+mbr: libiec61883,x86_64,0,1.2.0,10.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libffado,x86_64,0,2.1.0,4.el7@a:dependson
+  depends_on: libffado,x86_64,0,2.1.0,4.el7@a
+mbr: asterisk13-core,x86_64,0,13.30.0,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-devel,x86_64,0,13.30.0,1.el7@a:dependson asterisk13,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-addons,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-configs,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-dahdi,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-doc,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-odbc,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-resample,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-voicemail,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-addons-bluetooth,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-addons-core,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-addons-mysql,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-addons-ooh323,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-devel,x86_64,0,13.30.0,1.el7@a asterisk13,x86_64,0,13.30.0,1.el7@a asterisk13-addons,x86_64,0,13.30.0,1.el7@a asterisk13-configs,x86_64,0,13.30.0,1.el7@a asterisk13-dahdi,x86_64,0,13.30.0,1.el7@a asterisk13-doc,x86_64,0,13.30.0,1.el7@a asterisk13-odbc,x86_64,0,13.30.0,1.el7@a asterisk13-resample,x86_64,0,13.30.0,1.el7@a asterisk13-voicemail,x86_64,0,13.30.0,1.el7@a asterisk13-addons-bluetooth,x86_64,0,13.30.0,1.el7@a asterisk13-addons-core,x86_64,0,13.30.0,1.el7@a asterisk13-addons-mysql,x86_64,0,13.30.0,1.el7@a asterisk13-addons-ooh323,x86_64,0,13.30.0,1.el7@a
+mbr: tncfhh-utils,x86_64,0,0.8.3,16.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: tncfhh-libs,x86_64,0,0.8.3,16.el7@a:dependson
+  depends_on: tncfhh-libs,x86_64,0,0.8.3,16.el7@a
+mbr: mysql-connector-odbc,x86_64,0,5.3.13,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-odbc,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-odbc,x86_64,0,13.30.0,1.el7@a
+mbr: radiusclient-ng,x86_64,0,0.5.6,9.el7 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-core,x86_64,0,13.30.0,1.el7@a:dependson asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-core,x86_64,0,13.30.0,1.el7@a asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: mpfr,x86_64,0,3.1.1,4.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: gcc,x86_64,0,4.8.5,44.el7@a:dependson cpp,x86_64,0,4.8.5,44.el7@a:dependson libmpc,x86_64,0,1.0.1,3.el7@a:dependson
+  depends_on: gcc,x86_64,0,4.8.5,44.el7@a cpp,x86_64,0,4.8.5,44.el7@a libmpc,x86_64,0,1.0.1,3.el7@a
+mbr: asterisk13-odbc,x86_64,0,13.30.0,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: bluez-libs,x86_64,0,5.44,7.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-addons,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-addons-bluetooth,x86_64,0,13.30.0,1.el7@a:dependson asterisk13-addons-bluetooth,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-addons,x86_64,0,13.30.0,1.el7@a asterisk13-addons-bluetooth,x86_64,0,13.30.0,1.el7@a asterisk13-addons-bluetooth,x86_64,0,13.30.0,1.el7@a
+mbr: libraw1394,x86_64,0,2.1.0,2.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: libffado,x86_64,0,2.1.0,4.el7@a:dependson libiec61883,x86_64,0,1.2.0,10.el7@a:dependson
+  depends_on: libffado,x86_64,0,2.1.0,4.el7@a libiec61883,x86_64,0,1.2.0,10.el7@a
+mbr: pakchois,x86_64,0,0.4,10.el7 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: neon,x86_64,0,0.30.0,4.el7@a:dependson
+  depends_on: neon,x86_64,0,0.30.0,4.el7@a
+mbr: dahdi-firmware,x86_64,0,2.11.1,1.el7.centos 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: dahdi,x86_64,0,2.11.1,1.el7.centos@a:dependson
+  depends_on: dahdi,x86_64,0,2.11.1,1.el7.centos@a
+mbr: iksemel,x86_64,0,1.4,6.el7 70
+  repo: issabel-extras
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13-core,x86_64,0,13.30.0,1.el7@a:dependson asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13-core,x86_64,0,13.30.0,1.el7@a asterisk13,x86_64,0,13.30.0,1.el7@a
+mbr: asterisk13-configs,x86_64,0,13.30.0,1.el7 70
+  repo: issabel-updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: asterisk13,x86_64,0,13.30.0,1.el7@a:dependson
+  depends_on: asterisk13,x86_64,0,13.30.0,1.el7@a

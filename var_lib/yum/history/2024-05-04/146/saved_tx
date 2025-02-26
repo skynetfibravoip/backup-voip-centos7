@@ -1,0 +1,12 @@
+762:e1462be6d820e37e716df4e80d8e7db16ce41703
+0
+1
+installed:763:b0e5963c4cc135586ce2cc5b0e12c60bc1f87efd
+1
+mbr: issabel-my_extension,noarch,0,4.0.0,1 70
+  repo: issabel-base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
